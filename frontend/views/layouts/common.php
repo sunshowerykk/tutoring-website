@@ -5,6 +5,7 @@ use frontend\assets\AppAsset;
 
 AppAsset::register($this);
 ?>
+<?php $this->beginPage() ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,6 +55,7 @@ AppAsset::register($this);
     </script>
 </head>
 <body>
+<?php $this->beginBody() ?>
     <div class="common-head">
         <div id="header">
             <div class="h-inner">
@@ -256,5 +258,7 @@ AppAsset::register($this);
   document.getElementById('this_year').innerHTML = new_date.getFullYear();
 </script>
 </div>
+<?php $this->endBody() ?>
 </body>
 </html>
+<?php $this->endPage() ?>

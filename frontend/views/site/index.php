@@ -4,8 +4,8 @@ use yii\helpers\Url;
 use frontend\assets\AppAsset;
 
 AppAsset::addCss($this,'@web/css/common.css');
-AppAsset::addCss($this,'@web/css/unslider.css');
 AppAsset::addCss($this,'@web/css/ticwear_new.css');
+AppAsset::addCss($this,'@web/css/unslider.css');
 $this->title = Yii::t('app', 'Ticwatch2 - 问问手表_中文语音交互智能手表');
 
 ?>
