@@ -1,0 +1,743 @@
+@font-face {
+	font-family: 'Source-Han-Light-ticwatch';
+	src: url('../font/ticwatch/Source-Han-Light-ticwatch.eot');
+	src: url('../font/ticwatch/Source-Han-Light-ticwatch.eot?#iefix') format('embedded-opentype'),
+	 url('../font/ticwatch/Source-Han-Light-ticwatch.woff') format('woff'),
+	 url('../font/ticwatch/Source-Han-Light-ticwatch.ttf') format('truetype'),
+	 url('../font/ticwatch/Source-Han-Light-ticwatch.svg#Source-Han-Light') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/**header**/
+#w_header{
+	background:rgba(255,255,255,0.9);
+	position:absolute;
+	top:-60px;
+	width:100%;
+	z-index:999;
+}
+#w_header .wh_inner{
+	max-width:1000px;
+	margin:0 auto;
+	height:60px;
+	position:relative;
+}
+.ticlogo{
+	float:left;
+	margin-top:12px;
+}
+.ticmore{
+	float:right;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	padding-top: 20px
+}
+.ticmore .link{
+	float:left;
+	text-align:center;
+	padding:0px 15px;
+	font-weight: bold;
+	font-size: 15px;
+	display: block;
+	letter-spacing: 1px;
+}
+.ticmore .buynow a{
+	padding:5px 30px;
+	margin-top: 15px;
+	letter-spacing: 2px;
+	border:2px solid #6f6f6f;
+	border-radius:20px;
+	color: #6f6f6f;
+}
+.ticmore .buynow a:hover{
+	background: #6f6f6f;
+	border:2px solid #6f6f6f;
+	color: #fff;
+}
+/**bg**/
+.section_01{
+	background: url(../../static/img/ticwatch/section1_bg.jpg) 40% 0px no-repeat #e3e2e8;
+	background-size: cover;
+	min-height:1200px;
+	min-width:1200px;
+}
+.section_02{
+	background: #f9f9f9;
+}
+.section_03{
+	background: url(../../static/img/ticwatch/section2.jpg) bottom no-repeat #f9f9f9;
+	background-size: 100% auto; 
+	min-width:1200px;
+}
+.section_04{
+	background: url(../../static/img/ticwatch/section3.jpg) center no-repeat #f9f9f9;
+	background-size: cover;
+	min-width:1200px;
+}
+.section_05{
+	background: #f9f9f9;
+}
+.section_06{
+	background: url(../../static/img/ticwatch/section6.jpg) center  no-repeat #f9f9f9;
+	background-size: cover;
+	min-width:1200px;
+}
+.section_07{
+	background: #f9f9f9;
+	position:relative;
+}
+.section_08{
+	background: #f9f9f9;
+}
+.section h2{
+	padding-top: 110px;
+	font-weight: normal;
+	text-align: center;
+	font-size: 42px;
+	font-family: 'Source-Han-Light-ticwatch';
+}
+.section p{
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	padding: 1.5% 0px;
+	line-height:1.8em;
+}
+.section .moreapp{
+	text-align: center;
+	font-size: 15px;
+	padding-bottom: 1.5%;
+}
+.section .morelink{
+	text-align: center;
+	font-size: 18px;
+	text-decoration: underline;
+}
+
+.section_01 h2,.section_01 .watch,.section .view,.section .icon{
+	text-align: center;
+}
+.fp-tableCell{
+	position: relative;
+}
+.s-inner{
+	width:1000px;
+	margin:0 auto;
+}
+.section_01 h2{
+	padding-top: 4%;
+	font-size: 30px;
+	font-weight: normal;
+	color: #414141;
+	width: 300px;
+	text-align: left;
+	font-family: '微软雅黑','microsoft YaHei';
+}
+.section_01 .view{
+	float: left;
+	margin-top: 90px;
+}
+.section_01 .view a{
+	margin-left: 0px;
+}
+.section_01 .watch{
+	padding-top:10%;
+	width: 300px;
+	text-align: left;
+}
+.section_01 .watch img{
+	width:50%;
+}
+.section_01 .mark{
+	position: absolute;
+	bottom: 5%;
+	font-size: 12px;
+}
+.section_02 h2{
+	padding-top:6%;
+}
+.section_02 .watch_list{
+	padding-top:3%;
+	width: 100%;
+	margin: 0 auto;
+}
+.section_02 .watch_list li{
+	float: left;
+	width:15%;
+	margin: 0px 5%;
+}
+.section_02 .watch_list span{
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+}
+.section_02 .watch_list img{
+	width:100%;
+}
+.section_02 .list{
+	margin: 0 auto;
+	width: 500px;
+	line-height: 1.8em;
+	font-size: 15px;
+	padding-top:1.5%;
+}
+.section_02 .list .frog{
+	width: 50px;
+	padding-left: 10px;
+}
+.section_02 .list .frog img{
+	vertical-align: middle;
+}
+.section_03 .list{
+	width: 40%;
+	margin:0 atuo;
+	margin-left:20%;
+	line-height: 1.8em;
+	font-size: 15px;
+	padding-top:3%;
+	padding-left: 6%;
+}
+.section_03 p{
+	text-align: center;
+	padding: 3% 0px;
+}
+.section_03 h2{
+	font-family:'Source-Han-Ligh1f5c3c8734e08';
+}
+.section_04 h2,.section_04 p,.section_04 .view{
+	margin-left:0%;
+	padding-left:0px;
+}
+.section_04 p{
+	width: 500px;
+}
+.section_04 .view{
+	width: 500px;
+	text-align: center;
+	padding-top:0%;
+}
+.section_04 h2{
+	padding-top: 270px;
+	text-align: center;
+	width: 500px;
+}
+.section_04 p span{
+	display: inline-block;
+	padding-top:5px;
+}
+.section_05 h2,.section_05 p,.section_05 .view,.section_05 .wenwen{
+	padding-top:1.5%;
+}
+.section_05 p{
+	width: 700px;
+}
+.section_05 .icon{
+	padding-top: 80px;
+}
+.section_05 .icon img{
+	width: 8%;
+}
+.section_05 .wenwen{
+	width: 72%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:3.5%;
+}
+.section_05 .wenwen .part{
+	float: left;
+	width: 14.5%;
+	background: #e0e0e0 ;
+	position: relative;
+	padding:1.25% 4.25%;
+	margin:1%;
+	min-height: 140px;
+	overflow: hidden;
+}
+.section_05 .wenwen .part .part_img{
+	width: 100%;
+	text-align: center;
+}
+.section_05 .wenwen .part .part_info i,.section_05 .wenwen .part .part_info b{
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	width: 80%;
+	margin-top: 15px;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 14px;
+}
+.section_05 .wenwen .part img{
+	width:100%;
+	height: 100%;
+}
+.section_05 .wenwen .part .part_text{
+	text-align: center;
+	margin-top:5px;
+	font-size: 15px;
+}
+.section_05 .wenwen .part .part_info{
+	position : absolute;
+	top:0px;
+	left:0px;
+	background: #455a64;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition:opacity .4s ease-in-out;
+	-webkit-transition:opacity .4s ease-in-out;
+}
+.section_05 .wenwen .part .part_info:hover{
+	opacity:1;
+}
+.section_05 .wenwen .part .part_info i{
+	padding:10px 0px;
+}
+.section_06 h2{
+	padding-top:120px;
+}
+.section_06 p{
+	width:400px;
+}
+.section_06 span{
+	display: block;
+	text-align: center;
+	padding-top:10px;
+	font-size: 15px
+}
+.section_06 .iconlist{
+	margin:0 auto;
+	width: 32%;
+	padding-top: 1%;
+}
+.section_06 .iconlist li{
+	width: 14.5%;
+	text-align: center;
+	padding-top:0%;
+	display: inline-block;
+	margin: 0px 2%;
+}
+.section_06 .iconlist li img{
+	width: 40%;
+}
+.section_06 .close{
+	margin:0 auto;
+	width: 10%;
+	padding-top: 40px;
+}
+.section_06 .close img{
+	width:100%;
+}
+.section_07 h2{
+	padding-top: 10%;
+}
+.section_07 .morelink{
+	padding-top:3%;
+}
+.section_07 .pic{
+	position: absolute;
+	bottom:0px;
+	margin-top:10%;
+	background: #b3b0bb;
+	text-align: center;
+	width: 100%;
+}
+.section_07 .pic img{
+	width: 100%;
+}
+.section_07 .view{
+	position:absolute;
+	top: 40%;
+	left:50%;
+	padding-top:0%;
+	z-index: 99;
+	margin-left:-80px;
+}
+.section_08{
+	overflow:hidden;
+}
+.section_08 .scroll{
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+	padding-top:6%;
+	position: relative;
+	height:35%;
+	min-height: 320px;
+}
+.section_08 h2{
+	padding-top:11%;
+}
+.section_08 .slide li{
+	float:left;
+	width: 24%;
+	height:100%;
+	margin:0px 0.25%;
+	text-align: center;
+}
+.section_08 .slide li img{
+	width: 80%;
+}
+.scrolltop{
+	position: absolute;
+    top:50%;
+    left:0px;
+    z-index: 999
+}
+.back{
+	display: none;
+	left: -60px;
+	position: absolute;
+	top:50%;
+}
+.video_box{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	z-index:9999;
+}
+.section.active h2,.section.active p,.section.active .view,.section.active .watch,.section.active .icon,.section.active .list,.section.active .morelink,.section.active .moreapp{
+	opacity: 0;
+	animation:opa .8s;
+	animation-delay:.3s;
+	animation-fill-mode: forwards;
+	animation-timing-function:ease-out;
+	-webkit-animation:opa .8s;
+	-webkit-animation-delay:.3s;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-timing-function:ease-out;
+}
+.section.active p{
+	animation-delay:.4s;
+	-webkit-animation-delay:.4s;
+}
+.section.active .view,.section.active .lets{
+	animation-delay:.5s;
+	-webkit-animation-delay:.5s;
+}
+.section.active .watch{
+	animation-delay:.3s;
+	-webkit-animation-delay:.3s;
+}
+.section.active .list{
+	animation-delay:.6s;
+	-webkit-animation-delay:.6s;
+}
+.section.active .morelink{
+	animation-delay:.7s;
+	-webkit-animation-delay:.7s;
+}
+.section.active .moreapp{
+	animation-delay:.7s;
+	-webkit-animation-delay:.7s;
+}
+#footer{
+	position: absolute;
+	bottom:0px;
+}
+
+.section .view a{
+	padding: 5px 15px 5px 0px;
+	display: inline-block;
+	margin-right:30px;
+}
+.section-play a{
+	padding-bottom: 5px;
+	color:#414141;
+	margin-left: 10px;
+	padding-top: 10px;
+}
+.section-play i{ 
+	width: 0;
+    height: 0;
+    border-top: 9px solid transparent;
+    border-left: 18px solid #414141;
+    border-bottom: 9px solid transparent;
+	width: 0px;
+	height: 0px;
+	float: left;
+}
+.section-play span{
+	border:2px solid #414141;
+	border-radius:16px;
+	float: left;
+	padding: 2px 12px 2px 18px;
+	margin-right: 15px;
+	margin-top: -2px;
+}
+.section-play a{
+	font-size: 16px;
+}
+.section-play a:hover{
+	color: #414141;
+	text-decoration: underline;
+}
+.section-play a:hover i{
+	border-left: 18px solid #fff;
+}
+.section-play a:hover span{
+	background: #828282;
+	border:2px solid #828282;
+}
+.ticwatch-common-foot{
+	position:relative;
+	bottom:-230px;
+}
+
+
+
+/**keyframes**/
+@keyframes opa{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+@-webkit-keyframes opa{
+	from{opacity: 0}
+	to{opacity: 1;}
+}
+/**media**/
+@media screen and (min-height:800px){
+	.section_04 h2{
+		padding-top:35%;
+	}
+	.section_02 h2{
+		padding-top:12%;
+	}
+	.section_06 .close{
+		width:20%;
+	}
+}
+@media screen and (max-width:1400px){
+	.section_03 .list{
+		margin-left:30%;
+	}
+}
+@media screen and (min-width:1600px){
+	.s-inner{
+		width:1200px;
+	}
+}
+@media screen and (max-width:640px){
+	.ticwatch_pro_inner {
+		width: 100%;
+	}
+	.ticwatch_pro_inner p{
+		padding:10px 0 10px 0px;
+		margin: 0 auto;
+		text-align: center;
+		display: table;
+	}
+	.ticwatch_pro_inner a{
+		padding: 0px 5px;
+		margin: 0px;
+	}
+	.section{
+		min-height: 0px;
+	}
+	.ticmore .buynow a{
+		padding:4px 10px;
+		border-radius:20px;
+		margin-top: 15px;
+		color: #6f6f6f;
+		letter-spacing: 2px;
+		font-size: 14px;
+	}
+	#w_header .wh_inner{
+		max-width: 100%;
+	}
+	.ticmore{
+		padding-top: 15px;
+	}
+	.section_01{
+		background: url(../../static/img/ticwatch/mobile_bg01.jpg) center 40px no-repeat #e3e2e8;
+		background-size: auto 100%;
+		min-width: 0px;
+		min-height:0px;
+	}
+	.section_02{
+		background: url(../../static/img/ticwatch/mobile_bg02.jpg) center 50px no-repeat #e3e2e8;
+		background-size: auto 100%;
+		min-width: 0px;
+		min-height:0px;
+	}
+	.section_03{
+		background: url(../../static/img/ticwatch/mobile_bg03.jpg) center 50px no-repeat #e3e2e8;
+		background-size: auto 100%;
+		min-width: 0px;
+		min-height:0px;
+	}
+	.section_04{
+		background: url(../../static/img/ticwatch/mobile_bg04.jpg) center 50px no-repeat #e3e2e8;
+		background-size: auto 100%;
+		min-width: 0px;
+		min-height:0px;
+	}
+	.section_05{
+		background: url(../../static/img/ticwatch/mobile_bg05.jpg) center 50px no-repeat #ffffff;
+		background-size: 100% auto;
+		min-width: 0px;
+		min-height:0px;
+	}
+	.section_06{
+		background: url(../../static/img/ticwatch/mobile_bg08.jpg) center 50px no-repeat #e3e2e8;
+		background-size: auto 100%;
+		min-width: 0px;
+		min-height:0px;
+	}
+	.section_07{
+		background: url(../../static/img/ticwatch/mobile_bg06.jpg) center  no-repeat #e3e2e8;
+		background-size: cover;
+		min-width: 0px;
+		min-height:0px;
+	}
+	.section_08{
+		background: url(../../static/img/ticwatch/mobile_bg07.jpg) center 50px no-repeat #e3e2e8;
+		background-size: auto 100%;
+		min-width: 0px;
+		min-height:0px;
+	}
+	.section h2,.section p,.watch,.mark,.view,.list,.watch_list,.scrolltop,.morelink,.wenwen,.scroll,.pic,.iconlist,.close,.icon,.moreapp,.section_01 .mark{
+		display: none;
+	}
+	#footer{
+		display: none;
+	}
+	.ticwatch_pro_inner a img{
+		opacity: 0.4;
+	}
+}
+@media screen and (max-height:660px){
+	.section_05 .wenwen{
+		width:50%;
+	}
+}
+@media screen and (max-height:700px){
+	.section_01 .view{
+		padding-top:5%;
+	}
+	.section_05 h2{
+		padding-top:0%;
+	}
+	.section_04 h2{
+		padding-top:26%;
+	}
+	.section_04 p{
+		font-size:14px;
+	}
+	.section_06 span{
+		font-size: 14px;
+	}
+	.section_06 .close{
+		width: 8%;
+		padding-top:10px;
+	}
+	.section_07 h2,.section_08 h2{
+		padding-top:6%;
+	}
+	.section_07 .pic img{
+	width: auto;
+	max-height:300px;
+	}
+	.ticlogo{
+		width: 100px;
+	}
+	.ticlogo img{
+		width: 100%;
+	}
+	.section_02 .watch_list{
+		width: 70%;
+	}
+}
+@media screen and (max-height:600px){
+	.section p{
+		padding:5% 0px;
+	}
+	.section_03.active .list{
+		display: none;
+	}
+	.section_06 .close{
+		display: none;
+	}
+	.section_07 .pic{
+		display: none;
+	}
+	.section_08 .scroll{
+		display: none;
+	}
+	.section_02 .watch_list{
+		display: none;
+	}
+	.wenwen{
+		display: none;
+	}
+	.iconlist{
+		display: none;
+	}
+	.section_01{
+		background: url(../../static/img/ticwatch/mobile_bg01.jpg) center 40px no-repeat #e3e2e8;
+		background-size: auto 100%;
+	}
+}
+
+@media screen and (min-height:1200px){
+	.s-inner{
+		position: absolute;
+		top: 15%;
+		left:25%;
+		display: table;
+	}
+	.section_04 .s-inner{
+		left:10%;
+		top:20%;
+	}
+	.fp-controlArrow.fp-prev{
+		top:20%;
+	}
+	#footer{
+		bottom:0%;
+	}
+	.scroll{
+		height: 374px;
+	}
+}
+@media screen and (min-height:1000px){
+	.section_02 h2{
+		padding-top:10%;
+	}
+	.section_04 h2{
+		padding-top: 40%;
+	}
+	.section_02 .watch_list{
+		padding-top: 10%;
+	}
+	.section_05 .wenwen{
+		padding-top:5%;
+		width: 80%;
+	}
+}
+@media screen and (min-height:800px){
+	.section_08 h2{
+		padding-top: 15%;
+	}
+	.section_05 .icon{
+		padding-top: 120px;
+	}
+	.section_02 .list{
+		padding-top:3%;
+	}
+	.section_02 .watch_list{
+		padding-top:8%;
+	}
+	.section_05 .wenwen{
+		padding-top:5%;
+		width: 80%;
+	}
+	.section_01 .watch{
+		padding-top:15%;
+	}
+}

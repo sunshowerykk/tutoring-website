@@ -1,0 +1,20 @@
+.bdshare-button-style1-32 a{
+	border-right:1px solid #8a8a8a; 
+	margin:0px; 
+	float:left; 
+	width: 160px; 
+	height: 160px; 
+	text-align: center;
+}
+.bdshare-button-style1-32 .bds_tsina{
+	background: url(../../static/img/weibo.png) center no-repeat #dadada;
+}
+.bdshare-button-style1-32 .bds_weixin{
+	background: url(../../static/img/weixin.png) center no-repeat #dadada;
+}
+.bdshare-button-style1-32 .bds_tsina:hover{
+	background: url(../../static/img/weibo.png) center no-repeat #c9c9c9;
+}
+.bdshare-button-style1-32 .bds_weixin:hover{
+	background: url(../../static/img/weixin.png) center no-repeat #c9c9c9;
+}

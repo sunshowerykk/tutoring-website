@@ -1,0 +1,41 @@
+/**reset**/
+body, h1, h2, h3, h4, h5, h6, hr, p, 
+dl, dt, dd, ul, ol, li,
+fieldset, lengend, button, input, textarea,
+th, td {
+    margin: 0;
+    padding: 0;
+	color:#414141;
+}
+/* @font-face
+{
+	font-family: thinFont;
+	src: url(../../static/font/NotoSansHans-Thin.otf);
+	font-weight:bold;
+}
+@font-face
+{
+	font-family: blackFont;
+	src: url(../../static/font/NotoSansHans-Black.otf);
+	font-weight:normal;
+} */
+body,
+button, input, select, textarea { /* for ie */
+    font-family:Arial, "microsoft YaHei";
+   
+}
+h1 { font-size: 18px; /* 18px / 12px = 1.5 */ }
+h2 { font-size: 16px; }
+h3 { font-size: 14px; }
+h4, h5, h6 { font-size: 100%; }
+
+ul, ol ,li { list-style: none; }
+
+a{ text-decoration: none; color: #414141; }
+a:hover { text-decoration: none; color:#838383; }
+
+fieldset, img { border: none; } 
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}

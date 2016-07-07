@@ -1,0 +1,311 @@
+.personal-top{
+    width: 100%;
+    height: 315px;
+    background: url('../img/ticwatch2/personal-top.jpg') repeat-x;
+}
+.top-content{
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+}
+.top-content h3{
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 35px;
+    padding-top: 67px;
+}
+
+.top-content p{
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.top-content img{
+    text-align: center;
+    margin-top: 19px;
+}
+.personal-middle{
+    width: 100%;
+    height: 545px;
+    background-color: #f1f1f1;
+}
+.nav{
+    width: 405px;
+    height: 22px;
+    line-height: 22px;
+    margin: 0 auto;
+    padding-top:25px;
+}
+.nav li{
+    width: 131px;
+    float: left;
+    font-size: 18px;
+    text-align: center;
+    color: #bfbfbf;
+    border-right: 1px solid #aaaaaa;
+    cursor: pointer;
+}
+.nav li:last-child{
+    border-right:0;
+}
+.nav li.high{
+    color: #2b2b2b;
+}
+.ticwacth-show{
+    margin-top: 42px;
+    height:auto;
+}
+.ticwacth-show p{
+    display: inline-block;
+    float: left;
+}
+
+.tab1{
+    width: 456px;
+    margin: 0 auto;
+}
+.ticwacth-show p{
+    width: 228px;
+}
+.ticwacth-show span{
+    font-size: 14px;
+}
+.tab1 img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.tab1 span{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 24px;
+}
+.tab3{
+    display: none;
+    width:690px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.tab3 p{
+    width: 229px;
+}
+.tab3 span{
+    display: block;
+    width: 229px;
+    text-align: center;
+}
+.tab2{
+    width: 1102px;
+    height: 445px;
+    margin: 0 auto;
+    overflow-y: hidden;
+    cursor: pointer;
+    display: none;
+}
+
+.tab2::-webkit-scrollbar {
+    width: 6px;
+    height:5px;
+}
+.tab2::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 1px #b4b3b2; 
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+/* Handle */
+.tab2::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: #ccc;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.tab2-img{
+    height: 423px;
+}
+.tab2 p{
+    width: 229px;
+    float: left;
+}
+.tab2 span{
+    display: block;
+    width: 229px;
+    text-align: center;
+}
+
+.personal-bottom{
+    width: 100%;
+    background-color:#f8f8f8;
+}
+.personal-bottom div{
+    width: 1180px;
+    margin: 0 auto;
+    font-size: 16px;
+    overflow: hidden;
+    height:710px;
+    padding:75px 0 110px;
+}
+.personal-bottom p.band {
+    float: left;
+    text-align: left;
+    position: relative;
+    color: #fff;
+    line-height: 26px;
+}
+.personal-bottom p.band span {
+    position: absolute;
+    width: 80%;
+    bottom: 32px;
+    left: 10%;
+}
+.personal-bottom p.band-s{
+    float:right;
+}
+.personal-bottom p.band-s span {
+    color: #000;
+}
+._tab2-mobile{
+    display: none;
+}
+.dial-show-text{
+    width:100%;
+    height:250px;
+}
+.dial-show-text h3{
+    font-size: 22px;
+    text-align: center;
+    padding-top:60px;
+    font-weight:normal;
+}
+.dial-show-text p{
+    font-size: 16px;
+    width:665px;
+    margin:0 auto;
+    line-height: 30px;
+    text-align: center;
+    padding-top:30px;
+}
+.dial-show-bg{
+    background:url(/static/img/ticwatch2/personal-dial-bg.jpg) no-repeat center;
+    background-size:cover;
+    width:100%;
+    height:590px;
+}
+@media screen and (max-width: 800px){
+    body{
+        min-width: 100%;
+    }
+    #content{
+        margin-top:105px;
+    }
+    .top-content h3{
+        font-size:16px;
+        padding-top: 50px;
+    }
+    .top-content p{
+        text-align: center;
+        padding: 0 10px;
+        line-height: 22px;
+        font-size: 12px;
+    }
+    .personal-bottom div{
+        width: 100%;
+        margin: 0 auto;
+        height: 100%;
+        padding:0;
+    }
+    .personal-bottom div img{
+        width: 100%;
+    } 
+    .personal-bottom p.band {
+        width: 100%;
+        padding: 0;
+    }
+    .personal-bottom p.band span {
+        font-size: 14px;
+    }
+    .personal-middle{
+        height: 360px;
+        padding-top: 20px;
+    }
+    .mobile-bot{
+        padding-bottom: 20px;
+    }
+    .ticwacth-show{
+        height: 220px;
+    }
+    .personal-bottom p:last-child span{
+        width: 80%;
+        margin: 0 auto;
+        padding-left: 0;
+        text-align: left;
+    }
+    .nav{
+        width: 90%;
+        margin: 10px auto 0;
+    }
+    .nav li{
+        width: 32.3%;
+        font-size: 16px;
+    }
+    .tab1{
+        width: 460px;
+        height: 230px;
+        overflow: hidden;
+    }
+    .ticwacth-show{
+        width: 100%;
+    }
+    .tab1{
+        width: 100%;
+        height: 210px;
+    }
+    .tab2{
+        width:100%;
+        height: 260px;
+        overflow: hidden;
+    }
+    .tab1 img,.tab2 img,.tab3 img{
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tab2-img{
+        height: 260px;
+    }
+    ._tab2-mobile{
+        display: block;
+        width: 100%;
+        overflow: hidden;
+    }
+    .tab3{
+        width: 100%;
+        height: 260px;
+        overflow: hidden;
+    }
+    .dial-show-text{
+        height:auto;
+        overflow: hidden;
+        padding-bottom: 20px;
+    }
+    .dial-show-text h3{
+        font-size: 16px;
+    }
+    .dial-show-text p{
+        font-size: 12px;
+        width:80%;
+        line-height: 25px;
+    }
+    .dial-show-bg{
+        height:200px;
+    }
+}
+
+
+
+
+
+
+

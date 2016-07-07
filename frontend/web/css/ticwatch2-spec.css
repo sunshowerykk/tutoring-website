@@ -1,0 +1,390 @@
+body, html {
+    min-width: 1024px;
+}
+i {
+    font-style: normal;
+}
+.txt-orange:hover{
+    color:#ccc;
+}
+.clear {clear: both}
+.txt-orange{
+    color: #f49d30;
+}
+.no-border {
+    border: 0 !important;
+}
+.inner {
+    width: 1024px;
+    margin: 0 auto;
+    display: table;
+    position: relative; 
+}
+.intro-left{
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-left: 35px;
+    width: 500px;
+}
+.intro-left h2{
+    padding: 100px 0 40px;
+}
+.intro-left dl {
+    margin-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d9d9d9;
+}
+.intro-left dt {
+    font-size: 22px;
+}
+.intro-left dt img{
+    vertical-align: middle;
+}
+.intro-left dd {
+    margin-top: 30px;
+    font-size: 28px;
+}
+.intro-left dd .left20 {
+    padding-left: 20px;
+}
+.intro-left dd .font16{
+    font-size: 16px;
+}
+.intro p.remark{
+    font-size: 12px;
+    padding: 80px 0 35px 0;
+}
+.ticwatch-pic {
+    position: absolute;
+    left: 500px;
+    top: 120px;
+    z-index: -1;
+}
+
+.param .inner, .spec {
+    text-align: center;
+    height: 300px;
+}
+.param p, .spec p {
+    color: #fff;
+    font-size: 22px;
+    padding-top: 120px;
+}
+.readmore {
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    width: 150px;
+    margin: 70px auto 0;
+    text-align: center;  
+    border: 1px solid #fff;
+    border-radius: 25px;
+    padding: 10px 0;
+}
+.readmore:hover {
+    color: #fff;
+}
+.readmore.active {
+    background: #fff;
+    color: #000;
+}
+.param {
+    width: 100%;
+    background: #000;
+}
+.param .inner {
+    background: url('../img/ticwatch2/param-bg.jpg') left center no-repeat;
+}
+.spec {
+    background: url('../img/ticwatch2/spec-bg.jpg') right top no-repeat #000;
+    box-shadow:0px 8px 8px rgba(0,0,0,.3);
+} 
+.param-val {
+    background: #707070;
+    -moz-box-shadow:0px 10px 10px rgba(0,0,0,.2) inset; 
+    -webkit-box-shadow:0px 10px 10px rgba(0,0,0,.2) inset;
+    box-shadow:0px 10px 10px rgba(0,0,0,.2) inset;
+    height: 475px;
+    padding: 70px 0 50px;
+    display: none;
+}
+.param-val ul{
+    width: 100%;
+    display: table;
+    clear: both;
+}
+.param-val ul:last-child{
+    clear: both;
+    margin-top: 40px;
+}
+.param-val li{
+    float: left;
+    width: 25%;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.param-val li:before{
+    content: ' ';
+    display: block;
+    margin: 0 auto;
+    background: url('../img/ticwatch2/param-icon.png') no-repeat;
+}
+.param-val li.param-01:before{
+    width: 91px;
+    height: 118px;
+    background-position: 0 0;
+    margin-top: 10px;
+}
+.param-val li.param-02:before{
+    width: 63px;
+    height: 128px;
+    background-position: -91px 0;
+}
+.param-val li.param-03:before{
+    margin-top: 10px;
+    width: 63px;
+    height: 118px;
+    background-position: -156px 0;
+}
+.param-val li.param-04:before{
+    margin-top: 10px;
+    width: 48px;
+    height: 118px;
+    background-position: -220px 0;
+}
+.param-val li.param-05:before{
+    width: 34px;
+    height: 121px;
+    margin-top: 7px;
+    background-position: -271px 0;
+}
+.param-val li.param-06:before{
+    width: 75px;
+    height: 118px;
+    margin-top: 10px;
+    background-position: -306px 0;
+}
+.param-val li.param-07:before{
+    width: 46px;
+    height: 128px;
+    background-position: -382px 0;
+}
+.param-val li.param-08:before{
+    width: 73px;
+    margin-top: 8px;
+    height: 120px;
+    background-position: -429px 0;
+}
+.watch-class {
+    float: left;
+    width: 100%;
+    display: block;
+    padding-top: 20px;
+}
+.watch-class ul:last-child{
+    border-bottom: 0;
+}
+.watch-class .class-line{
+    height: 1px;
+    background: #ababab;
+    width: 100%;
+    display: table;
+    margin-bottom: 25px;
+}
+.watch-class .class-line:before{
+    content: ' ';
+    width: 115px;
+    background: url('../img/ticwatch2/watch-list.jpg') no-repeat;
+    height: 18px;
+    position: absolute;
+    margin-top: -9px;
+}
+.watch-class-02 .class-line:before{
+    background-position: 0 -330px;
+}
+.watch-class-03 .class-line:before{
+    background-position: 0 -1210px;
+}
+.watch-table {
+    width: 100%;
+}
+.watch-table .inner {
+    display: none;
+}
+.watch-class.tit ul {
+    border-bottom: 0;
+    height: auto;
+}
+.watch-class ul {
+    float: left;
+    height: 108px;
+    border-bottom: 1px solid #ababab;
+    padding-top: 30px;
+}
+.watch-class.tit li {
+    font-size: 22px;
+}   
+.watch-class li {
+    float: left;
+    font-size: 12px;
+    text-align: center;
+}
+.watch-class li span {
+    font-weight: bold;
+    display: none;
+}
+.watch-class p.watch {
+    display:block;
+    background: url('../img/ticwatch2/watch-list.jpg') no-repeat;
+    width: 200px;
+    height: 138px;
+    float: left;
+}
+.watch-class.tit p.watch {
+    display:block;
+    background: none;
+    height: 80px;
+}
+.watch-class li {
+    line-height: 20px;
+}
+.watch-class li.case {
+    width: 160px;
+}
+.watch-class li.screen {
+    width: 160px;
+}
+.watch-class li.cover {
+    width: 175px;
+}
+.watch-class li.band {
+    width: 172px;
+}
+.watch-class li.comm {
+    width: 157px;
+}
+.watch-class p.watch-01 {
+    background-position: 0 -50px;
+}
+.watch-class p.watch-02 {
+    background-position: 0 -187px;
+}
+.watch-class p.watch-03 {
+    background-position: 0 -360px;
+}
+.watch-class p.watch-04 {
+    background-position: 0 -504px;
+}
+.watch-class p.watch-05 {
+    background-position: 0 -642px;
+}
+.watch-class p.watch-06 {
+    background-position: 0 -780px;
+}
+.watch-class p.watch-07 {
+    background-position: 0 -924px;
+}
+.watch-class p.watch-08 {
+    background-position: 0 -1068px;
+}
+.watch-class p.watch-09 {
+    background-position: 0 -1250px;
+}
+.watch-class p.watch-10 {
+    background-position: 0 -1392px;
+}
+.watch-class p.watch-11 {
+    background-position: 0 -1535px;
+}
+.watch-table .remark {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    clear: both;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 800px){
+    body, html, .inner {
+        min-width: 320px !important;
+        width: auto !important;
+    }
+    #content{
+        margin-top:60px;
+    }
+    .ticwatch-pic {
+        position: relative;
+        left: 0;
+        text-align: center;
+    }
+    .ticwatch-pic img {
+        width: 80%;
+    }
+    .intro-left{
+        width: auto !important;
+        margin: 0 20px;
+    }
+    .intro-left h2{
+        padding: 120px 0 20px;
+        text-align: center;
+    }
+    .intro p.remark {
+        width: auto !important;
+        margin: 0 20px;
+        padding: 35px 0;
+    }
+    .intro-left dd .font16 {
+        font-size: 14px;
+    }
+    .intro-left dd  {
+        font-size: 20px;
+    }
+    .param .inner {
+        width: 100% !important;
+    }
+    .spec {
+        width: 100%;
+    }
+    .param-val li {
+        width: 50%;
+        font-size: 14px;
+    }
+    .param-val {
+        display: block;
+        height: auto;
+    }
+    .watch-class.tit {
+        display: none;
+    }
+    .watch-table .inner {
+        display: block;
+    }
+    .watch-class p.watch {
+        width: 130px;
+    }
+    .watch-class ul {
+        width: 180px;
+        padding-top: 0;
+        display: table;
+        border-bottom: 0;
+        padding-bottom: 20px;
+    }
+    .watch-class li {
+        float: left;
+        display: block;
+        text-align: left;
+        width: 100%;
+    }
+    .watch-class li span{
+        display: inline-block;
+    }
+    .readmore {
+        display: none;
+    }
+
+}
+
+
+

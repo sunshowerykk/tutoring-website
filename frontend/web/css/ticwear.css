@@ -1,0 +1,443 @@
+#content_mobile{
+		display: none;
+	}
+/**banner**/
+#banner{
+	width: 100%;
+	position: fixed;
+	z-index:-1;
+}
+.bg_img{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background: url(../../static/img/ticwear/banner.jpg) center no-repeat;
+	background-size:cover;
+	height: 650px;
+}
+.bg_img img{
+	height: 640px;
+	vertical-align: bottom;
+}
+.bg_bar{
+	background: #8e874b;
+	padding: 15px 0px;
+	min-width:1000px;
+	height: 94px;
+}
+.b_inner{
+	width: 60%;
+	margin: 0 auto;
+}
+.b_inner .slogan{
+	color: #fff;
+	padding-top: 20px;
+	font-size: 42px;
+}
+.b_inner .slogan span{
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 42px;
+	letter-spacing: 0px;
+	display: block;
+}
+.b_inner .logo{
+	float: right;
+	text-align: right;
+	padding-top: 10px;
+}
+.b_inner .logo span{
+	color: #fff;
+	font-size: 22px;
+	display: block;
+	padding-top: 10px;
+}
+/*content*/
+.wear_ask,.wear_cubic,.wear_timeline,.wear_quickcard,.wear_sport,.wear_app,.section_05,.wear_footer{
+	text-align: center;
+	float: left;
+	width: 100%;
+	min-width: 1000px;
+}
+.wear_ask h2,.wear_cubic h2,.wear_timeline h2,.wear_quickcard h2,.wear_sport h2,.wear_app h2,.wear_support h2{
+	font-size: 32px;
+	font-weight: normal;
+	padding-top: 50px;
+	margin-top: 50px;
+}
+.wear_ask p,.wear_cubic p,.wear_timeline p,.wear_quickcard p,.wear_sport p,.wear_app p,.wear_support p{
+	display: block;
+	clear: both;
+	font-size: 16px;
+	line-height: 27px;
+	margin-top:30px;
+}
+.all_inner{
+	width: 60%;
+	margin:0 auto;
+}
+span.info{
+	display: block;
+	padding-top: 20px;
+}
+.wear_ask img,.service li,.wear_timeline li,.wear_quickcard .q_inner li,.wear_sport .s_inner li{
+	width: 18%;
+}
+.wear_ask{
+	background: #f5f5f5;
+	text-align: center;
+	float: left;
+	width: 100%;
+	padding-top: 110px;
+}
+.shadow{
+	background:url(../../static/img/ticwear/shadow.png) bottom no-repeat;
+	z-index:-1;
+	padding-bottom: 3px;
+}
+.service{
+	background:url(../../static/img/ticwear/what_banner.jpg) no-repeat;
+	width: 100%;
+	margin-top: 50px;
+	padding: 60px 0px;
+}
+.service li{
+	display: inline-block;
+	float:left\9;
+	margin: 0px 1.5%;
+}
+.service li img{
+	width: 100%;
+}
+.wear_cubic{
+	background:url(../../static/img/ticwear/cubic.jpg);
+	background-size:cover;
+	padding-top: 30px;
+	min-height: 640px;
+	position: relative;
+}
+.wear_cubic .g_inner{
+	position: absolute;
+	text-align: center;
+	bottom:10%;
+}
+.wear_cubic h2,.wear_cubic p{
+	color: #fff;
+}
+.wear_timeline{
+	position: relative;
+	background: #fff;
+}
+.wear_timeline .pic{
+	padding-top: 30px;
+}
+.wear_timeline .pic img{
+	width: 32%;
+}
+.wear_timeline p span{
+	display: block;
+	padding-top: 20px;
+}
+.wear_timeline li{
+	display: inline-block;
+	float:left\9;
+}
+.wear_timeline li img{
+	width: 100%;
+}
+.wear_timeline .shadow{
+	background-size:80%;
+}
+.wear_timeline .t_inner{
+	height: 260px; 
+	padding-top: 50px;
+	margin:0 auto;
+	width:60%; 
+	position: relative;
+}
+.wear_timeline .scroll_list{
+	 width:10000em; 
+	 position:absolute; 
+	 top: 0px; 
+	 left: 0px; 
+} 
+.wear_timeline .box {
+	height:100%; 
+	position:relative; 
+	overflow: hidden; 
+} 
+.wear_timeline .box li { 
+	display:block; 
+	float:left; 
+	margin:0px 5px;
+	line-height:66px;
+	cursor:pointer;
+}
+.wear_timeline .prev, .wear_timeline .next {
+	display:block;
+	width:25px;
+	height:30px; 
+	cursor:pointer; 
+	position: absolute; 
+	top:40%; 
+} 
+.wear_timeline .prev { 
+	background:url(../../static/img/ticwear/prev.png) no-repeat; 
+	left: -30px;
+} 
+.wear_timeline .next { 
+	background:url(../../static/img/ticwear/next.png) no-repeat; 
+	right: -30px;
+}
+.wear_quickcard{
+	background:#f5f5f5;
+	padding-bottom: 85px;
+}
+.wear_quickcard .q_inner{
+	width: 45%;
+	margin: 0 auto;
+	background: url(../../static/img/ticwear/round_bg.png) center no-repeat;
+	background-size: 100% auto;
+	padding: 0px 15px;
+	text-align: left;
+	margin-top: 50px;
+}
+.wear_quickcard .q_inner li{
+	display: inline-block;
+	float:left\9;
+	margin:15px 0px;
+}
+.wear_quickcard .q_inner li img{
+	width: 140%;
+	vertical-align: bottom;
+}
+.wear_sport{	
+	background: #f5f5f5;
+	padding-bottom: 5%;
+}
+.wear_sport p{
+	line-height: 200%;
+}
+.wear_sport .s_inner{
+	width: 45%;
+	margin: 0 auto;
+	margin-top: 30px;
+	text-align: center;
+	display: inline-block;
+	margin-right:5%;
+}
+.s_quick{
+	float: left;
+	display: inline-block;
+}
+.lr_txt{
+	float:left; 
+	padding-top:20px;
+	margin-right:-20%;
+}
+.lr_txt2{
+	float:right; 
+	padding-top:20px;
+	margin-right:10%;
+}
+.wear_sport .s_inner ul{
+	float:right;
+}
+.wear_sport .s_inner li .shadow{
+	background-size:80%;
+}
+.wear_sport .s_inner li{
+	float: right;
+}
+.wear_sport .s_inner li img{
+	width: 140%;
+	vertical-align: bottom;
+}
+.wear_app{
+	background:url(../../static/img/ticwear/banner2.jpg) no-repeat;
+	width: 100%;
+	padding: 60px 0px;
+}
+.wear_app h2{
+	padding-top:0px;
+}
+.section_05{
+	background: #f5f5f5;
+}
+.section_05 .wenwen{
+	width: 60%;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 85px 0px;
+}
+.section_05 .wenwen .part{
+	display: inline-block;
+	float:left\9;
+	width: 14%;
+	background: #e0e0e0 ;
+	position: relative;
+	padding:1.25% 4.25%;
+	margin:1%;
+}
+.section_05 .wenwen .part .part_img{
+	width: 100%;
+	text-align: center;
+}
+.section_05 .wenwen .part .part_info i,.section_05 .wenwen .part .part_info b{
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	width: 80%;
+	margin-top: 15px;
+	font-weight: normal;
+	font-style: normal;
+	text-align: left;
+}
+.section_05 .wenwen .part img{
+	width:100%;
+	height: 100%;
+}
+.section_05 .wenwen .part .part_text{
+	text-align: center;
+	margin-top:5px;
+	font-size: 16px;
+}
+.section_05 .wenwen .part .part_info{
+	position : absolute;
+	top:0px;
+	left:0px;
+	background: #455a64;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition:opacity .4s ease-in-out;
+	-webkit-transition:opacity .4s ease-in-out;
+	display:none\9;
+}
+.section_05 .wenwen .part .part_info:hover{
+	opacity:1;
+}
+.section_05 .wenwen .part .part_info i{
+	padding:10px 0px;
+}
+.section_05 p{
+	padding-top:50px;
+}
+.section_05 .supplement{
+	padding-top:10px;
+	font-size:12px;
+}
+.wear_support{
+	width: 60%;
+	margin: 0 auto;
+	padding-bottom: 60px;
+	text-align: center;
+	display: table;
+	min-width: 1000px;
+}
+.wear_support h2{
+	padding-top:10px;
+}
+.wear_support ul{
+	padding-top: 65px;
+}
+.wear_support li{
+	display: inline-block;
+	float:left\9;
+	margin:0px 5%;
+	width: 155px;
+}
+.wear_support li span{
+	display: block;
+	float:left\9;
+	margin:0px;
+	width: 155px;
+}
+.wear_support li img{
+	width: 155px;
+}
+.wear_footer{
+	background: #f5f5f5;
+}
+.wear_footer .enter{
+	width: 180px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+.wear_footer .enter a{
+	width:180px;
+}
+.wear_footer .enter a img{
+	width: 80%;
+}
+.wear_footer .enter a span{
+	display: block;
+	font-size: 20px;
+}
+.scrolltop{ 
+	position: fixed;
+    top:50%;  
+    left:0px;  
+    z-index: 999;
+} 
+.fadeinimg{
+	animation:fadein-img 1s ease-out;
+	-webkit-animation:fadein-img 1s ease-out;
+}
+
+
+@keyframes fadein-img{
+	from{opacity:0;}
+	to{opacity:1;}
+}
+@-webkit-keyframes fadein-img{
+	from{opacity:0;}
+	to{opacity:1;}
+}
+@media screen and (max-width: 1440px){
+	.b_inner{
+		width: 80%;
+		margin: 0 auto;
+	}	
+	.all_inner{
+		width: 80%;
+		margin:0 auto;
+	}
+	.section_05 .wenwen{
+		width: 80%;
+	}
+	.wear_support{
+		width: 80%;
+		display: table;
+	}	
+	.wear_quickcard .q_inner{
+		width: 65%;	
+	}
+	.wear_sport .s_inner{
+		width: 65%;	
+	}
+	.wear_cubic .g_inner{
+		width: 40%;
+		margin:0 auto;
+	}
+
+}
+
+@media screen and (max-width:640px){
+	#content{
+		display: none;
+	}
+	#content_mobile{
+		display: block;
+		margin-top:60px;
+	}
+
+	#content_mobile img{
+		width: 100%;
+		vertical-align: bottom;
+	}
+}

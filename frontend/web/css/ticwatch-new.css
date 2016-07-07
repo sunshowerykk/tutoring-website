@@ -1,0 +1,1611 @@
+*{
+    font-family:'Arial','Microsoft YaHei';
+    margin:0;
+    padding:0;
+}
+body{
+    width:100%;
+    overflow-x:hidden;
+}
+.web{
+    display:block;
+}
+.mobile{
+    display:none;
+}
+.ticwatch-buy{
+    display:none;
+}
+#content {
+    min-width: 1200px;
+    margin-top:0;
+}
+.section-banner{
+    width:100%;
+    margin:0 auto;
+    background:url(/static/img/ticwatch-new/banner.png) center no-repeat;
+    background-size:auto 100%;
+    position:relative;
+}
+.section-banner span{
+    position: absolute;
+    left: 50%;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+    cursor:pointer;
+}
+.section-banner span:nth-of-type(1){
+    margin-left:3px;
+    width: 18px;
+    height: 18px;
+    bottom:30px;
+    -webkit-animation: arrowGo 2s ease-in-out infinite;
+    -moz-animation:arrowGo 2s ease-in-out infinite;
+    -o-animation:arrowGo 2s ease-in-out infinite;
+    -ms-animation:arrowGo 2s ease-in-out infinite;
+}
+.section-banner span:nth-of-type(2){
+    width: 24px;
+    height: 24px;
+    bottom:20px;
+    -webkit-animation: arrowGo2 2s ease-in-out infinite;
+    -moz-animation:arrowGo2 2s ease-in-out infinite;
+    -o-animation:arrowGo2 2s ease-in-out infinite;
+    -ms-animation:arrowGo2 2s ease-in-out infinite;
+}
+.section-style{
+    width:100%;
+    margin:0 auto;
+    padding-top:70px;
+}
+.section-style .inner{
+    margin:0 auto;
+    display:block;
+}
+.section-style .mobile-watch-list{
+    display:none;
+}
+.section-style .inner>span{
+    font-family:'Source-Han-Ligh2b3b3acf954a0';
+}
+.section-style span{
+    font-size:30px;
+    display:block;
+    text-align:center;
+    font-size:36px;
+}
+.section-style ul{
+    padding:60px 16%;
+}
+.section-style ul li{
+    margin:0 auto;
+}
+.section-style ul li span{
+    font-size:0;
+}
+.section-style ul li:first-child{
+    float:left;
+    width:270px;
+}
+.section-style ul li:nth-of-type(3){
+    width:250px;
+    margin:0 auto;
+}
+.section-style ul li:nth-of-type(2){
+    float:right;
+    width:250px;
+}
+.tic-img{
+    height:280px;
+}
+.tic-logo{
+    margin-top:50px;
+    margin-bottom:25px;
+}
+.tic-logo img{
+    height:27px;
+}
+.section-style ul li:first-child .tic-logo img,.tic-img img{
+    display:block;
+    margin:0 auto;
+}
+.section-style ul li:nth-of-type(3) .tic-img img{
+    width:188px;
+}
+.section-style ul li .more-btn{
+    cursor:pointer;
+    margin:0 auto;
+    font-size:14px;
+    color:#414141;
+    width:130px;
+    height:25px;
+    border:2px solid #414141;
+    border-radius:18px;
+    text-align:center;
+    line-height:25px;
+}
+.section-style ul li .more-btn:hover{
+    color:#fff;
+    border:2px solid #828282;
+    background-color:#828282;
+}
+.section-style .iphone-con{
+    margin-left:6px;
+    height:24px;
+}
+.section-style-detail{
+    width:100%;
+    height:650px;
+    background-color:#f7f8f8;
+}
+#black-gold{
+    width:875px;
+    margin:0 auto;
+    padding:60px 0px;
+}
+.img-title{
+    display:block;
+    margin:0 auto;
+    height:40px;
+    margin-bottom:70px;
+}
+.img-show{
+    float:left;
+    margin-top:20px;
+    width:516px;
+    position:relative;
+}
+.img-show ul{
+    overflow:hidden;
+    height:450px;
+}
+.img-show ul li{
+    height:100%;
+}
+.img-show ul li img{
+    display:block;
+    margin:0 auto;
+}
+.img-show .pagination-bar{
+    width:70px;
+    margin:0 auto;
+    margin-top:-40px;
+    position:absolute;
+    z-index:5;
+    left:44%;
+}
+.img-show .pagination-bar em{
+    cursor:pointer;
+    width:10px;
+    height:10px;
+    display:inline-block;
+    margin-right:15px;
+    border-radius:8px;
+    background-color:#434343;
+}
+.img-show .pagination-bar.on{
+    left:48%
+}
+.img-show .pagination-bar em:last-child{
+    margin-right:0;
+}
+.img-show .pagination-bar .current{
+    width:8px;
+    height:8px;
+    display:inline-block;
+    border-radius:8px;
+    border:1px solid #434343;
+    background-color:#fff;
+}
+.detail-show{
+    float:right;
+    width:350px;
+    margin-top:30px;
+}
+.detail-show .name{
+    margin-bottom:20px;
+    height:24px;
+}
+.detail-show .name span{
+    display:block;
+    line-height:22px;
+    float:left;
+}
+.detail-show .name img{
+    height:24px;
+}
+.detail-show .style-choice{
+    height:41px;
+    margin-bottom:20px;
+    position: relative;
+}
+.style-choice li{
+    display:block;
+    float:left;
+    padding:2px;
+}
+.detail-show .style-choice .active{
+    width:30px;
+    height:30px;
+    border:1px solid #ccc;
+}
+.style-choice li{
+    margin-right:10px;
+    cursor:pointer;
+}
+.style-choice .more{
+    font-size:12px;
+    line-height:41px;
+    margin-left:35px;
+    cursor:pointer;
+}
+.style-choice .more img{
+    margin-left:5px;
+}
+.style-choice .more img.img-active{
+    width:10px;
+    height:6px;
+    margin-bottom:2px;
+    -moz-transform:rotate(-90deg);
+    -webkit-transform:rotate(-90deg);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.detail-show #detail{
+    height:214px;
+}
+.detail-show p{
+    clear:both;
+    font-size:12px;
+    color:#221815;
+    line-height:20px;
+}
+.more-choice{
+    width:350px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    padding:20px 30px;
+    font-size:12px;
+    color:#221815;
+    display:none;
+    position: absolute;
+    left:0;
+    top:50px;
+    background:#f5f5f5;
+    box-shadow:2px 2px 10px #ccc;
+    -webkit-box-shadow:2px 2px 10px #ccc;
+    -moz-box-shadow:2px 2px 10px #ccc;
+}
+.more-choice .type{
+    display:block;
+}
+.more-choice .type img{
+    height:15px;
+}
+ .more-choice ul{
+    margin:10px 0 20px;
+    height:35px;
+}
+.more-choice ul li{
+    float:left;
+    text-align:center;
+    line-height:15px;
+    padding:0 5px;
+}
+.more-choice ul li div{
+    width:40px;
+    cursor:pointer;
+}
+.more-choice ul li div img{
+    display:block;
+    width:30px;
+    margin:0 auto;
+}
+.more-choice ul li span{
+    display:block;
+    font-size:12px;
+    width:40px;
+    text-align:center;
+    padding:5px 0;
+}
+.line{
+    clear:both;
+    margin:15px 0;
+    margin-top:30px;
+}
+.more-choice .line:last-child{
+    display:none;
+}
+.detail-show .price{
+    display:block;
+    font-size:14px;
+    color:#221815;
+    margin:30px 0 20px;
+}
+.detail-show .buy-btn{
+    display:block;
+    font-size:14px;
+    color:#414141;
+    width:110px;
+    height:25px;
+    border:2px solid #414141;
+    border-radius:18px;
+    text-align:center;
+    line-height:25px;
+}
+.detail-show .buy-btn:hover{
+    color:#fff;
+    border:2px solid #828282;
+    background-color:#828282;
+}
+.section-param{
+    width:100%;
+    height:1054px;
+    margin:0 auto;
+    font-size:14px;
+    color:#221815;
+    position:relative;
+    max-width:1440px;
+}
+.section-param div{
+    display:block;
+    position:absolute;
+}
+.section-param  div:nth-of-type(1){
+    overflow:hidden;
+    top:0px;
+    left:-110px;
+}
+.section-param div:nth-of-type(1) img{
+    margin-top:-20px;
+}
+.section-param  div:nth-of-type(2){
+    top:256px;
+    left:225px;
+}
+.section-param  div:nth-of-type(3){
+    top:490px;
+    right:-120px;
+}
+.section-param  div:nth-of-type(4){
+    display:none;
+}
+.section-param .text-intro{
+    position:relative;
+}
+.section-param h2{
+    font-size:30px;
+    font-weight:normal;
+}
+.section-param .param-first{
+    position:absolute;
+    top:290px;
+    left:52%;
+    font-family:'Source-Han-Ligh2b3b3acf954a0';
+    font-size:36px;
+}
+.section-param .param-first-mobile{
+    display:none;
+}
+.section-param .p-first{
+    width:420px;
+    position:absolute;
+    top:368px;
+    left:52%;
+    line-height:25px;
+}
+.section-param .video{
+    position:absolute;
+    top:497px;
+    left:53%;
+}
+.section-param .video span{
+    border: 2px solid #707070;
+    border-radius: 16px;
+    float: left;
+    padding: 2px 12px 2px 18px;
+    margin-top: -2px;
+}
+.section-param .video i{
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-left: 15px solid #414141;
+    border-bottom: 7px solid transparent;
+    width: 0px;
+    height: 0px;
+    float: left;
+}
+.section-param .video a{
+    text-decoration:none;
+    margin-left:15px;
+    line-height:16px;
+}
+.section-param .video a:hover{
+    color: #414141;
+    text-decoration: underline;
+}
+.section-param .video a:hover i{
+    border-left: 15px solid #fff;
+}
+.section-param .video a:hover span{
+    background: #828282;
+    border:2px solid #828282;
+}
+.section-param ul{
+    position:absolute;
+    top:578px;
+    left:54%;
+}
+.section-param ul li{
+    height:30px;
+    line-height:30px;
+    list-style-type:disc;
+}
+.section-param ul li img.logo{
+    position:static;
+    display:inline;
+    height:18px;
+    vertical-align:middle;
+}
+.section-param .param-second{
+    position:absolute;
+    bottom:80px;
+    width:100%;
+    font-family:'Source-Han-Ligh2b3b3acf954a0';
+    font-size:36px;
+    text-align:center;
+}
+.section-param .p-second{
+    position:absolute;
+    bottom:20px;
+    width:100%;
+    line-height:25px;
+    text-align:center;
+}
+.section-param .p-second p{
+    width:440px;
+    margin:0 auto;
+}
+.section-config{
+    height:668px;
+    width:100%;
+    position:relative;
+    font-size:14px;
+    margin:0 auto;
+    margin-top:20px;
+}
+.section-config .param-second,.section-config .p-second{
+    display:none;
+}
+.section-config .ul-first li,.section-config .ul-second li,.section-config .ul-third li{
+    list-style-type:disc;
+    line-height:25px;
+}
+.section-config .ul-first{
+    background:url(/static/img/ticwatch-new/section-config-01.jpg) no-repeat;
+    background-size:cover;
+    width:50%;
+    height:50%;
+    position:relative;
+    float:right;
+}
+.section-config .ul-second{
+    background:url(/static/img/ticwatch-new/section-config-02.jpg) no-repeat;
+    background-size:cover;
+    width:50%;
+    height:100%;
+    position:relative;
+    float:left;
+}
+.section-config .ul-first span{
+    position:absolute;
+    top:50px;
+    left:10%;
+}
+.section-config .ul-second span{
+    display:block;
+    position:absolute;
+    top:400px;
+    left:60%;
+}
+.section-config .ul-second li{
+    color:#fff;
+}
+.section-config .ul-third{
+    background:url(/static/img/ticwatch-new/section-config-03.jpg) no-repeat;
+    background-size:cover;
+    width:50%;
+    position:relative;
+    height:50%;
+    float:right;
+}
+.section-config .ul-third span{
+    position:absolute;
+    top:50px;
+    left:50%;
+    color:#fff;
+}
+.section-func{
+    background-color:#edf7f4;
+    background-size:100%;
+    position:relative;
+    font-size:14px;
+    padding:155px 0 100px;
+}
+.section-func div:first-child{
+    background:url(/static/img/ticwatch-new/section-func-img.png) no-repeat center center;
+    background-size:cover;
+    width:1105px;
+    height:460px;
+    margin:0 auto;
+    overflow:hidden;
+}
+.section-func p{
+    margin:0 auto;
+    position:absolute;
+    bottom:95px;
+    line-height:25px;
+    text-align:center;
+    width:100%;
+}
+.section-func .link{
+    width:100%;
+    position:absolute;
+    bottom:60px;
+    text-align:center;
+}
+.section-func a{
+    font-size:12px;
+    text-decoration:underline;
+}
+.section-func .supplement{
+    bottom:30px;
+    font-size:12px;
+}
+.section-store{
+    height:850px;
+    width:100%;
+    background:url(/static/img/ticwatch-new/store-bg.jpg) repeat-x;
+    position:relative;
+    font-size:14px;
+}
+.section-store span{
+    position:absolute;
+    top:110px;
+    font-size:30px;
+    width:100%;
+    text-align:center;
+    font-family:'Source-Han-Ligh2b3b3acf954a0';
+    font-size:36px;
+}
+.section-store .text{
+    position:absolute;
+    top:180px;
+    width:100%;
+    text-align:center;
+}
+.section-store div p{
+    width:570px;
+    margin:0 auto;
+    line-height:25px;
+}
+.section-store img{
+    width:1105px;
+    margin:0 auto;
+    padding-top:110px;
+}
+.section-store .download-btn{
+    display:block;
+    width:190px;
+    height:30px;
+    margin:0 auto;
+    border:2px solid #707070;
+    border-radius:18px;
+    font-size:14px;
+    color:#414141;
+    text-align:center;
+    line-height:30px;
+    cursor:pointer;
+    position:absolute;
+    top:250px;
+    left:50%;
+    margin-left:-97px;
+    margin-top:20px;
+}
+.section-store .download-btn:hover{
+    color:#fff;
+    border:2px solid #828282;
+    background-color:#828282;
+}
+.section-list{
+    height:675px;
+    margin:0 auto;
+    font-size:14px;
+    position:relative;
+}
+.section-list .web>span{
+    font-size:30px;
+    width:100%;
+    text-align:center;
+    font-family:'Source-Han-Ligh2b3b3acf954a0';
+    font-size:36px;
+}
+.section-list div{
+    position:absolute;
+    top:80px;
+    width:100%;
+    text-align:center;
+}
+.section-list div p{
+    width:570px;
+    margin:0 auto;
+    line-height:25px;
+}
+.section-list .watch-list{
+    position:relative;
+    width:957px;
+    height:400px;
+    margin:0 auto;
+    overflow:hidden;
+    padding:100px 10px;
+}
+.section-list .watch-list .shade-01,
+.section-list .watch-list .shade-02{
+    display:block;
+    width:255px;
+    height:290px;
+    position:absolute;
+}
+.section-list .watch-list .shade-01{
+    top:105px;
+    left:-10px;
+    z-index:1;
+}
+.section-list .watch-list .shade-02 img{
+    -moz-transform:rotate(-180deg);
+    -webkit-transform:rotate(-180deg);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+}
+.section-list .watch-list .shade-02{
+    top:105px;
+    right:-20px;
+}
+.unslider-arrow{
+    top:220px;
+}
+.unslider-arrow.next{
+    right:5px;
+}
+.watch-list ul{
+    height:280px;
+    width:20000px;
+    margin:0 auto;
+    position:absolute;
+    overflow:hidden;
+    padding:0 40px;
+}
+.watch-list ul li{
+    float:left;
+    width:184px;
+    height:280px;
+}
+.watch-list ul li span{
+    display:block;
+    font-size:12px;
+    color:#221815;
+    position:static;
+    margin:0 auto;
+    margin-top:-12px;
+}
+.section-android-ios{
+    background-color:#848484;
+    padding: 95px 0;
+    width:100%;
+    height:380px;
+}
+.section-android-ios .inner-title{
+    font-size:30px;
+    width:100%;
+    color:#fff;
+    text-align:center;
+    font-family:'Source-Han-Ligh2b3b3acf954a0';
+    font-size:36px;
+}
+.section-tit{
+    padding:20px 0;
+    margin:0 auto;
+    display:table;
+}
+.section-tit .tab{
+    width:145px;
+    height:30px;
+    border:2px solid #afafaf;
+    border-radius:18px;
+    float:left;
+    cursor:pointer;
+}
+.section-tit .tab:hover{
+    background-color:#afafaf;
+}
+.section-tit .tab:first-child{
+    margin-right:20px;
+}
+.tab .android,
+.tab .android.on,
+.tab .ios,
+.tab .ios.on{
+    background:url(/static/img/ticwatch-new/android_ios.png) no-repeat;
+    background-size:auto 40px;
+    margin:0 auto;
+}
+.section-tit .tab .android{
+    width:120px;
+    height:18px;
+    margin-top:5px;
+    background-position:0 1px;
+}
+.section-tit .tab .android.on{
+    background-position:0px -22px;
+}
+.section-tit .tab .ios{
+    width:34px;
+    height:20px;
+    margin-top:5px;
+    background-position:-120px 1px;
+}
+.section-tit .tab .ios.on{
+    background-position:-120px -20px;
+}
+.section-txt{
+    width:1024px;
+    margin:0 auto;
+    margin-top:20px;
+}
+.section-txt ul{
+    padding-left:265px;
+    clear:both;
+}
+.section-txt ul p,.section-txt ul li{
+    color:#fff;
+    font-size:14px;
+    text-align:left;
+}
+.section-txt ul p{
+    padding-bottom:20px;
+}
+.section-txt ul li{
+    float:left;
+    width:300px;
+    list-style-type:disc;
+    list-style-position:inside;
+    margin-right:25px;
+    line-height:22px;
+}
+.section-txt .ios li:nth-of-type(11),
+.section-txt .ios li:nth-of-type(13),
+.section-txt .ios li:nth-of-type(15),
+.section-txt .ios li:nth-of-type(17){
+    margin-top:-21px;
+}
+.section-more{
+    margin:0 auto;
+}
+.section-more .title{
+    width:240px;
+    height:30px;
+    margin:0 auto;
+    border:2px solid #707070;
+    border-radius:18px;
+    font-size:14px;
+    color:#707070;
+    text-align:center;
+    line-height:30px;
+    margin-top:35px;
+    margin-bottom:15px;
+}
+.section-more ul{
+    width:950px;
+    padding:0 70px;
+    height:185px;
+    border-top:1px solid #ccc;
+    margin:0 auto;
+}
+.section-more  ul:nth-of-type(2){
+    border-bottom:1px solid #ccc;
+}
+.section-more ul li{
+    width:170px;
+    height:145px;
+    float:left;
+    padding:20px 10px;
+}
+.section-more ul li p{
+    font-size:12px;
+    text-align:center;
+    line-height:22px;
+}
+.section-more ul li span{
+    background:url(/static/img/ticwatch-new/param-bg.png) no-repeat;
+    background-size: 324px auto;
+    display:block;
+    height:76px;
+}
+.section-more .screen span{
+    background-position:-192px 0;
+    width: 42px;
+}
+.section-more .case span{
+    width:12px;
+    background-position:0 0;
+}
+.section-more .processor span{
+    width:43px;
+    background-position:-235px 0;
+}
+.section-more .storage span{
+    width:32px;
+    background-position:-86px 0;
+}
+.section-more .bluetooth span{
+    width:26px;
+    background-position:-59px 0;
+}
+.section-more .sensor span{
+    width:34px;
+    background-position:-120px 0;
+}
+.section-more .battery span{
+    width:19px;
+    background-position:-14px 0;
+}
+.section-more .waterproof span{
+    width:35px;
+    background-position:-155px 0;
+    margin-top:5px;
+}
+.section-more .operation span{
+    width:44px;
+    background-position:-280px 0;
+}
+.section-more .system span{
+    width:23px;
+    background-position:-34px 0;
+}
+.section-more ul li span{
+    margin:0 auto;
+}
+
+@keyframes buzz-down {
+    from{margin:-20px 0 0;}
+    to{margin:20px 0 0;}
+}
+@keyframes buzz-up {
+    from{margin:20px 0 0;}
+    to{margin:-20px 0 0;}
+}
+@-webkit-keyframes buzz-down {
+    from{margin:-20px 0 0;}
+    to{margin:20px 0 0;}
+}
+@-webkit-keyframes buzz-up {
+    from{margin:20px 0 0;}
+    to{margin:-20px 0 0;}
+}
+@-moz-keyframes buzz-down {
+    from{margin:-20px 0 0;}
+    to{margin:20px 0 0;}
+}
+@-moz-keyframes buzz-up {
+    from{margin:20px 0 0;}
+    to{margin:-20px 0 0;}
+}
+@-o-keyframes buzz-down {
+    from{margin:-20px 0 0;}
+    to{margin:20px 0 0;}
+}
+@-o-keyframes buzz-up {
+    from{margin:20px 0 0;}
+    to{margin:-20px 0 0;}
+}
+@keyframes buz-down {
+    from{margin:0px 0 0;}
+    to{margin:60px 0 0;}
+}
+@keyframes buz-up {
+    from{margin:60px 0 0;}
+    to{margin:0px 0 0;}
+}
+@-webkit-keyframes buz-down {
+    from{margin:0px 0 0;}
+    to{margin:60px 0 0;}
+}
+@-webkit-keyframes buz-up {
+    from{margin:60px 0 0;}
+    to{margin:0px 0 0;}
+}
+@-moz-keyframes buz-down {
+    from{margin:0px 0 0;}
+    to{margin:60px 0 0;}
+}
+@-moz-keyframes buz-up {
+    from{margin:60px 0 0;}
+    to{margin:0px 0 0;}
+}
+@-o-keyframes buz-down {
+    from{margin:0px 0 0;}
+    to{margin:60px 0 0;}
+}
+@-o-keyframes buz-up {
+    from{margin:60px 0 0;}
+    to{margin:0px 0 0;}
+}
+.section-param div:nth-of-type(1) img.down,.section-param div:nth-of-type(2) img.down{
+    -webkit-animation:buzz-down 1.5s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both;
+    -moz-animation:buzz-down 1.5s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both;
+    -o-animation:buzz-down 1.5s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both;
+    -ms-animation:buzz-down 1.5s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both; 
+}
+.section-param div:nth-of-type(1) img.up,.section-param div:nth-of-type(2) img.up{
+    -webkit-animation:buzz-up 1.5s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both;
+    -moz-animation:buzz-up 1.5s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both;
+    -o-animation:buzz-up 1.5s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both;
+    -ms-animation:buzz-up 1.5s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both; 
+}
+.section-param div:nth-of-type(3) img.down{
+    -webkit-animation:buz-down 1.0s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both;
+    -moz-animation:buz-down 1.0s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both;
+    -o-animation:buz-down 1.0s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both;
+    -ms-animation:buz-down 1.0s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both; 
+}
+.section-param div:nth-of-type(3) img.up{
+    -webkit-animation:buz-up 1.0s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both;
+    -moz-animation:buz-up 1.0s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both;
+    -o-animation:buz-up 1.0s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both;
+    -ms-animation:buz-up 1.0s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both; 
+}
+
+@keyframes arrowGo{
+    0%{
+       bottom:30px;
+    }
+    50%{
+       bottom:25px;
+    }
+    100%{
+       bottom:30px;
+    }
+}
+@keyframes arrowGo2{
+    0%{
+      bottom:20px;
+    }
+    50%{
+       bottom:15px;
+    }
+    100%{
+       bottom:20px;
+    }
+}
+@-webkit-keyframes arrowGo{
+    0%{
+       bottom:30px;
+    }
+    50%{
+       bottom:25px;
+    }
+    100%{
+       bottom:30px;
+    }
+}
+@-webkit-keyframes arrowGo2{
+    0%{
+      bottom:20px;
+    }
+    50%{
+       bottom:15px;
+    }
+    100%{
+       bottom:20px;
+    }
+}
+@-moz-keyframes arrowGo{
+    0%{
+       bottom:30px;
+    }
+    50%{
+       bottom:25px;
+    }
+    100%{
+       bottom:30px;
+    }
+}
+@-moz-keyframes arrowGo2{
+    0%{
+      bottom:20px;
+    }
+    50%{
+       bottom:15px;
+    }
+    100%{
+       bottom:20px;
+    }
+}
+@-o-keyframes arrowGo{
+    0%{
+       bottom:30px;
+    }
+    50%{
+       bottom:25px;
+    }
+    100%{
+       bottom:30px;
+    }
+}
+@-o-keyframes arrowGo2{
+    0%{
+      bottom:20px;
+    }
+    50%{
+       bottom:15px;
+    }
+    100%{
+       bottom:20px;
+    }
+}
+
+@media screen and (max-width:1440px){
+    body {
+        overflow: inherit;
+    }
+    .section-param{
+        width:100%;
+        height:1054px;
+        margin:0 auto;
+        font-size:14px;
+        color:#221815;
+        position:relative;
+        max-width:1440px;
+        overflow:hidden;
+    }
+}
+
+@media screen and (max-width:800px){
+    .web{
+        display:none;
+    }
+    .mobile{
+        display:block;
+    }
+    #header{
+        position:inherit;
+        width: 100%;
+    }
+    .section-banner-m img{
+        width:100%;
+        height:auto;
+    }
+    .ticwatch-buy{
+        display:block;
+        background:rgba(255,255,255,0.9);
+        width:100%;
+        z-index:90;
+        top:60px;
+        border:0;
+        box-shadow:1px 1px 5px #ecedee;
+    }
+    .ticwatch-buy.active{
+        position:fixed;
+        top:0;
+    }
+    .buy-inner{
+        margin:0 auto;
+        height:50px;
+        position:relative;
+    }
+    .buy-inner .buy-logo{
+        float:left;
+        margin-left:15px;
+        margin-top:12px;
+    }
+    .buy-inner .buy-logo img{
+        width:100px;
+        height:20px;
+    }
+    .tic-buy{
+        float:right;
+        margin-right:15px;
+        font-size:12px;
+        font-weight:bold;
+        padding-top:17px;
+    }
+    .tic-buy a{
+        width:100px;
+        height:20px;
+        padding: 5px 30px;
+        margin-top: 15px;
+        letter-spacing: 2px;
+        border: 2px solid #000;
+        border-radius: 20px;
+        color: #000;
+    }
+    #content{
+        min-width:0;
+    }
+    .section-style{
+        background-color:#fff;
+        height:485px;
+        width:100%;
+        padding-top:30px;
+        overflow:hidden;
+    }
+    .section-style .mobile-watch-list span{
+        font-size:30px;
+    }
+    .section-style .inner{
+        display:none;
+    }
+    .section-style .mobile-watch-list{
+        display:block;
+        margin-top:20px;
+        position:relative;
+    }
+    .mobile-watch-list .watch-type{
+        margin:20px 0;
+    }
+    .mobile-watch-list .watch-type img{
+        display:none;
+        height:30px;
+        margin:0 auto;
+    }
+    .mobile-watch-list .watch-type img.active{
+        display:block;
+    }
+    .mobile-watch-list .watch-list{
+        width:100%;
+        margin-top:30px;
+        position:relative;
+        height:400px;
+        margin:0 auto;
+        overflow:hidden;
+    }
+    .mobile-watch-list .shade-01{
+        position:absolute;
+        height:430px;
+        top:-50px;
+        left:0;
+        z-index:1;
+    }
+    .mobile-watch-list .shade-02{
+        position:absolute;
+        top:-50px;
+        right:0;
+    }
+    .mobile-watch-list .shade-02 img{
+        -moz-transform:rotate(-180deg);
+        -webkit-transform:rotate(-180deg);
+        filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+    }
+    .mobile-watch-list .watch-list ul{
+        height:350px;
+        padding:0;
+    }
+    .mobile-watch-list .watch-list ul li{
+        float:left;
+        margin:0;
+        width:160px;
+        height:270px;
+    }
+    .mobile-watch-list .watch-list ul li img{
+        display:block;
+        margin:0 auto;
+    }
+    .mobile-watch-list .watch-list ul li span{
+        font-size:18px;
+        font-family:"Microsoft YaHei";
+        margin-top:0px;
+    }
+    .mobile-watch-list .unslider-arrow{
+        top:110px;
+        opacity:0.5;
+        display:block;
+    }
+    .mobile-watch-list .unslider-arrow.prev{
+        left:10px;
+    }
+    .mobile-watch-list .unslider-arrow.next{
+        right:10px;
+    }
+    .section-style-detail{
+        display:none;
+    }
+    .section-param{
+        width:100%;
+        position:relative;
+    }
+    .section-param div:nth-of-type(1){
+        position:absolute;
+        left:20px;
+    }
+    .section-param div:nth-of-type(1) img{
+        width:183px;
+        height:265px;
+        margin:0;
+    }
+    .section-param div:nth-of-type(2){
+        position:absolute;
+        left:170px;
+        top:155px;
+    }
+    .section-param div:nth-of-type(3){
+        display:none;
+    }
+    .section-param div:nth-of-type(2) img{
+        width:184px;
+        height:254px;
+    }
+    .section-param .param-first{
+        display:none;
+    }
+    .section-param .param-first-mobile{
+        display:block;
+        position:absolute;
+        left:20px;
+        top:400px;
+        font-family:"Source-Han-Ligh2b3b3acf954a0";
+    }
+    .section-param .p-first{
+        display:block;
+        position:absolute;
+        width:88%;
+        margin:0 auto;
+        top:513px;
+        left:20px;
+        text-align:center;
+    }
+    .section-param div:nth-of-type(4){
+        display:block;
+        max-width:100%;
+        position:absolute;
+        top:655px;
+        left:-40px;
+        right:-120px;
+    }
+    .section-param div:nth-of-type(4) img{
+        width:487px;
+        height:496px;
+    }
+    .section-param .video{
+        position:absolute;
+        top:800px;
+        left:35px;
+    }
+    .section-param ul{
+        position:absolute;
+        top:870px;
+        left:50px;
+    }
+    .section-config{
+        width:100%;
+        background-color:#eeeeee;
+        height:auto;
+        padding-top:50px;
+    }
+    .section-config .ul-second{
+        float:none;
+        background:url(/static/img/ticwatch-new/config-bg-mobile-01.png) no-repeat;
+        background-size:cover;
+        width:100%;
+        height:257px;
+    }
+    .section-config .ul-second span{
+        top:130px;
+        font-size:12px;
+        left:50%;
+    }
+    .section-config .ul-first{
+        float:none;
+        width:100%;
+        background:url(/static/img/ticwatch-new/config-bg-mobile-02.png) no-repeat;
+        background-size:cover;
+        height:257px;
+    }
+    .section-config .ul-first span{
+        font-size:12px;
+        top:25px;
+    }
+    .section-config .ul-third{
+        float:none;
+        width:100%;
+        background:url(/static/img/ticwatch-new/config-bg-mobile-03.png) no-repeat;
+        background-size:cover;
+        height:257px;
+    }
+    .section-config .ul-third span{
+        font-size:12px;
+        top:45px;
+    }
+    .section-param .param-second,.section-param .p-second{
+        display:none;
+    }
+    .section-config .param-second{
+        display:block;
+        font-size:30px;
+        font-weight:normal;
+        text-align:center;
+        font-family:"Source-Han-Ligh2b3b3acf954a0";
+    }
+    .section-config .p-second{
+        display:block;
+        font-size:14px;
+        font-weight:normal;
+        text-align:center;
+        margin:20px 0;
+    }
+    .section-config .p-second p{
+        width:90%;
+        margin:0 auto;
+        line-height:25px;
+    }
+    .section-func{
+        width:100%;
+        height:525px;
+        position:relative;
+        overflow:hidden;
+        padding:60px 0 40px;
+    }
+    .section-func div:first-child{
+        background:url(/static/img/ticwatch-new/section-func-img.png) no-repeat center center;
+        background-size:cover;
+        height:400px;
+        width:auto;
+        margin:0 auto;
+        overflow:hidden;
+    }
+    .section-func .btn-detail{
+        width:180px;
+        height:30px;
+        border: 2px solid #707070;
+        border-radius: 16px;
+        text-decoration:none;
+        line-height:30px;
+        font-size:14px;
+        position:inherit;
+        margin:0 auto;
+        margin-top:30px;
+        bottom:60px;
+        text-align:center;
+    }
+    .section-func p{
+        position:inherit;
+        width:90%;
+        margin:0 auto;
+        margin-top:50px;
+    }
+    .section-func .supplement{
+        margin-top:10px;
+        bottom:95px;
+    }
+    .section-func img{
+        width:864px;
+        height:405px;
+        position:absolute;
+        left:-72%;
+    }
+    .section-store{
+        width:100%;
+        height:auto;
+        background:#f3f3f4;
+    }
+    .section-store span{
+        padding-top:50px;
+        position:inherit;
+        top:0;
+    }
+    .section-store .text{
+        width:90%;
+        position:inherit;
+        top:0;
+        margin:0 auto;
+        margin:20px;
+    }
+    .section-store div p{
+        width:100%;
+        text-align:center;
+    }
+    .section-store img{
+        padding-top:50px;
+        width:100%;
+    }
+    .section-store .download-btn{
+        position:static;
+        margin:0 auto;
+    }
+    .section-list{
+        height:auto;
+    }
+    .section-list div{
+        position:static;
+        top:0;
+        overflow:hidden;
+    }
+    .section-list .list-first{
+        background:url(/static/img/ticwatch-new/section-list-mobile-01.png) no-repeat;
+    }
+    .section-list .list-first p{
+        display:block;
+        text-align:left;
+        padding-top:265px;
+        padding-left:20px;
+        color:#fff;
+        font-size:30px;
+        font-family:"Source-Han-Ligh2b3b3acf954a0";
+    }
+    .section-list .list-second{
+        background:url(/static/img/ticwatch-new/section-list-mobile-02.jpg) no-repeat;
+        text-align:left;
+    }
+    .section-list .list-first,
+    .section-list .list-second{
+        background-size:cover;
+        width:100%;
+        height:310px;
+    }
+    .section-list .list-second p{
+        display:block;
+        width:90%;
+        font-size:14px;
+        color:#fff;
+        padding-top:205px;
+        padding-left:20px;
+        margin:0;
+    }
+    .section-android-ios{
+        padding:50px 0;
+        height:780px;
+    }
+    .section-txt{
+        width:100%;
+    }
+    .section-txt ul{
+        width:270px;
+        margin:0 auto;
+        padding:0;
+    }
+    .section-txt ul img{
+        margin:0 auto;
+        margin-bottom:20px;
+    }
+    .section-txt ul p{
+        text-align:center;
+    }
+    .section-txt ul li{
+        font-size:12px;
+        width:115px;
+        margin-right:20px;
+    }
+    .section-txt ul.ios{
+        padding-top:20px;
+    }
+    .section-txt ul.ios img{
+        width:40px;
+        height:25px;
+    }
+    .section-txt .ios li:nth-of-type(11),
+    .section-txt .ios li:nth-of-type(13),
+    .section-txt .ios li:nth-of-type(15),
+    .section-txt .ios li:nth-of-type(17){
+        margin-top:0;
+    }
+    .section-more{
+        margin-bottom:50px;
+    }
+    .section-more .title{
+        border:0;
+        font-size:15px;
+        color:#000;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    .section-more ul{
+        padding:0;
+        width:100%;
+    }
+    .section-more ul li{
+        width:45%;
+        padding:20px 8px;
+    }
+    .section-more ul:nth-of-type(2){
+        border-bottom:0;
+    }
+    @keyframes div-down {
+        from{margin:0;}
+        to{margin:10px 0 0;}
+    }
+    @keyframes div-up {
+        from{margin:10px 0 0;}
+        to{margin:0;}
+    }
+    @-webkit-keyframes div-down {
+        from{margin:0;}
+        to{margin:10px 0 0;}
+    }
+    @-webkit-keyframes div-up {
+        from{margin:10px 0 0;}
+        to{margin:0;}
+    }
+    @-moz-keyframes div-down {
+        from{margin:0;}
+        to{margin:10px 0 0;}
+    }
+    @-moz-keyframes div-up {
+        from{margin:10px 0 0;}
+        to{margin:0;}
+    }
+    @-o-keyframes div-down {
+        from{margin:0;}
+        to{margin:10px 0 0;}
+    }
+    @-o-keyframes div-up {
+        from{margin:10px 0 0;}
+        to{margin:0;}
+    }
+    @keyframes buzz-down {
+        from{margin:0;}
+        to{margin:20px 0 0;}
+    }
+    @keyframes buzz-up {
+        from{margin:20px 0 0;}
+        to{margin:0;}
+    }
+    @-webkit-keyframes buzz-down {
+        from{margin:0;}
+        to{margin:20px 0 0;}
+    }
+    @-webkit-keyframes buzz-up {
+        from{margin:20px 0 0;}
+        to{margin:0;}
+    }
+    @-moz-keyframes buzz-down {
+        from{margin:0;}
+        to{margin:20px 0 0;}
+    }
+    @-moz-keyframes buzz-up {
+        from{margin:20px 0 0;}
+        to{margin:0;}
+    }
+    @-o-keyframes buzz-down {
+        from{margin:0;}
+        to{margin:20px 0 0;}
+    }
+    @-o-keyframes buzz-up {
+        from{margin:20px 0 0;}
+        to{margin:0;}
+    }
+    .section-param div:nth-of-type(1) img.down{
+        -webkit-animation:buzz-down 1.5s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both;
+        -moz-animation:buzz-down 1.5s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both;
+        -o-animation:buzz-down 1.5s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both;
+        -ms-animation:buzz-down 1.5s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both;
+    }
+    .section-param div:nth-of-type(1) img.up{
+        -webkit-animation:buzz-up 1.5s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both;
+        -moz-animation:buzz-up 1.5s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both;
+        -o-animation:buzz-up 1.5s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both;
+        -ms-animation:buzz-up 1.5s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both;
+    }
+    .section-param div:nth-of-type(4) img.down{
+        -webkit-animation:div-down 1.5s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both;
+        -moz-animation:div-down 1.5s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both;
+        -o-animation:div-down 1.5s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both;
+        -ms-animation:div-down 1.5s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both;
+    }
+    .section-param div:nth-of-type(4) img.up{
+        -webkit-animation:div-up 1.5s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both;
+        -moz-animation:div-up 1.5s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both;
+        -o-animation:div-up 1.5s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both;
+        -ms-animation:div-up 1.5s cubic-bezier(0.42, 0, 0.58, 1.0) 0.2s both;
+    }
+}

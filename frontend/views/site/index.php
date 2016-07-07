@@ -1,53 +1,52 @@
 <?php
 
-/* @var $this yii\web\View */
+use yii\helpers\Url;
+use frontend\assets\AppAsset;
 
-$this->title = 'My Yii Application';
+AppAsset::addCss($this,'@web/css/common.css');
+AppAsset::addCss($this,'@web/css/unslider.css');
+AppAsset::addCss($this,'@web/css/ticwear_new.css');
+$this->title = Yii::t('app', 'Ticwatch2 - 问问手表_中文语音交互智能手表');
+
 ?>
-<div class="site-index">
-
-    <div class="jumbotron">
-        <h1>Congratulations!</h1>
-
-        <p class="lead">You have successfully created your Yii-powered application.</p>
-
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
-    </div>
-
-    <div class="body-content">
-
-        <div class="row">
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
-            </div>
-        </div>
-
+<div class="slider-bar">
+    <ul>
+        <li>
+            <a href="https://ticwatch.tmall.com/p/rd004132.htm" target="_blank">
+                <img src="<?= Url::to('@web/img/new_banner1.jpg', true) ?>" border="0"/>
+            </a>
+        </li>
+        <li>
+            <a href="/ticmirror/">
+                <img src="<?= Url::to('@web/img/new_banner2.jpg', true) ?>" border="0"/>
+            </a>
+        </li>
+    </ul>
+    <div class="pagination-bar">
+        <em class="current"></em>
+        <em></em>
     </div>
 </div>
+<div class="index-bottom">
+    <div class="ticwatch">
+        <a href="https://ticwatch.tmall.com/p/rd004132.htm" target="_blank">
+            <img src="<?= Url::to('@web/img/new_ll.jpg', true) ?>" alt=""/> 
+        </a>
+    </div>
+    <div class="ticmirror">
+        <a href="http://www.sojump.hk/jq/8359788.aspx" target="_blank">
+            <img src="<?= Url::to('@web/img/new_mm.jpg', true) ?>" alt=""/> 
+        </a>
+    </div>
+    <div class="ticwatch2">
+        <a href="http://www.chumenwenwen.com/h5/app_download/index.html" target="_blank">
+            <img src="<?= Url::to('@web/img/new_rr.jpg', true) ?>" alt=""/> 
+        </a>
+    </div>
+</div>
+<script type="text/javascript" src="<?= Url::to('@web/lib/jquery-1.8.3.min.js', true)?>"></script>
+<script type="text/javascript" src="<?= Url::to('@web/lib/unslider-min.js', true)?>"></script>
+<script type="text/javascript" src="<?= Url::to('@web/js/common.js', true)?>"></script>
+<script type="text/javascript" src="<?= Url::to('@web/js/ticwear_new.js', true)?>"></script>
+</body>
+</html>

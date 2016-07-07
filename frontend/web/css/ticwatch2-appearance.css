@@ -1,0 +1,450 @@
+body{
+    min-width: 1200px;
+}
+.menu{
+    box-shadow: none;
+    background: rgba(255,255,255,0.83);
+}
+.btn{
+    display:block;
+    width:150px;
+    height:35px;
+    border-radius:20px;
+    line-height:35px;
+    text-align:center;
+    margin:0 auto;
+    font-size:14px;
+    border:2px solid #fff;
+}
+.btn:hover{
+    background:#00a0e9;
+    border:2px solid #00a0e9;
+}
+.btn i{
+    border-top:10px solid transparent;
+    border-left:18px solid #fff;
+    border-bottom:10px solid transparent;
+    width:0px;
+    height:0px;
+    float:left;
+    margin:7px 0 0 15px;
+}
+.ticwatch2-content{
+    margin-top: 105px;
+}
+.ticwatch2-content .design{
+    background: #000000;
+}
+.design .design-wrap{
+    width: 668px;
+    margin: 0 auto;
+    text-align: center;
+    height: 806px;
+}
+.design-wrap .design-top{
+    height: 298px;
+}
+.design-wrap h2,
+.design-wrap p,
+.design-wrap span,
+.design-wrap a{
+    color: #ffffff;
+}
+.design-wrap h2{
+    padding-top: 75px;
+    font-size: 22px;
+    font-weight: normal;
+}
+.design-wrap p{
+    font-size: 16px;
+    padding: 40px 0 30px 0;
+    line-height: 28px;
+}
+.design-wrap img{
+    padding-top: 22px;
+    height: 482px;
+}
+.design-wrap .intro{
+    position: relative;
+}
+.material{
+    width:100%;
+    height:900px;
+    background:url(/static/img/ticwatch2/section-material-bg.jpg) center no-repeat;
+    background-size:cover;
+}
+.material .inner{
+    width:1024px;
+    height:100%;
+    margin:0 auto;
+    position:relative;
+}
+.material-text{
+    width:475px;
+    position:absolute;
+    right:0;
+    bottom:145px;
+}
+.material-text h3{
+    font-size:22px;
+    color:#000;
+    text-align:center;
+    font-weight:normal;
+}
+.material-text p{
+    font-size:16px;
+    padding-top:30px;
+    line-height:30px;
+    text-align:center;
+}
+.intro-list{
+    position: absolute;
+    bottom: -120px;
+    left: 20px;
+}
+.intro-list li{
+    float: left;
+    line-height: 38px;
+}
+.intro-list .intro-text{
+    display: block;
+    font-size: 16px;
+    text-align: center;
+}
+.intro-list .number{
+    font-size: 48px;
+    text-align:center;
+    display:block;
+    margin:0 auto;
+}
+.intro-list .unit{
+    font-size: 22px;
+}
+.intro-list .line{
+    height: 40px;
+    width: 1px;
+    background: #000;
+    margin: 0 20px;
+}
+.style-china{
+    border-top: 1px solid #1b1c21;
+}
+.style-china .china-display{
+    height: 900px;
+    background: url("/static/img/ticwatch2/china_bg.jpg") no-repeat center;
+    width: 100%;
+    background-size: cover;
+}
+.china-display .china-content{
+    width: 521px;
+    text-align: center;
+    margin-left: 207px;
+    height: 490px;
+    padding-top: 205px;
+}
+.china-content img{
+    display: block;
+    margin: 0 auto;
+}
+.china-content .sub-title{
+    margin: 16px auto 25px;
+}
+.china-content p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+    margin-bottom: 27px;
+}
+.china-content span{
+    display: block;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: left;
+    margin:40px 0 0 100px;
+}
+.style-china .china-intro{
+    background: url("/static/img/ticwatch2/china-intro-bg.jpg") no-repeat center;
+    height: 548px;
+    background-size: cover;
+    border-top: 1px solid #1b1c21;
+}
+.china-intro .china-intro-text{
+    width: 750px;
+    height: 455px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 45px;
+}
+.china-intro p{
+    font-size: 12px;
+    color: #ffffff;
+    line-height: 22px;
+}
+.china-intro-text .cileft{
+    display: block;
+    width: 366px;
+    height: 66px;
+    position: absolute;
+    left: 0;
+    top: 45px;
+}
+.china-intro-text .ciright{
+    display: block;
+    width: 422px;
+    height: 66px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.style-classic{
+    margin-top: 60px;
+}
+.style-classic img{
+    margin: 0 auto;
+    display: block;
+}
+.style-classic .classic-upper{
+    position: relative;
+}
+.classic-upper .classic-main-title{
+    position: absolute;
+    bottom: 13px;
+    left: 50%;
+    width: 205px;
+    margin-left: -102.5px;
+}
+.style-classic .classic-lower{
+    padding-top: 20px;
+}
+.classic-lower .classic-intro-top{
+    font-size: 16px;
+    line-height: 28px;
+    width: 465px;
+    text-align: center;
+    margin: 20px auto 42px;
+}
+.classic-lower .classic-intro-bottom{
+    font-size: 12px;
+    line-height: 22px;
+    width: 465px;
+    margin: 35px auto 40px;
+}
+.style-motion{
+    background: url(/static/img/ticwatch2/motion-bg-color.jpg) repeat-x;
+}
+.style-motion .motion-wrap{
+    width: 1024px;
+    margin: 0 auto;
+}
+.motion-wrap{
+    height: 900px;
+}
+.motion-wrap .wrap-left,
+.motion-wrap .wrap-right{
+    height: 900px;
+}
+.motion-wrap .wrap-left{
+    float: left;
+}
+.motion-wrap .wrap-right{
+    width: 425px;
+    float: right;
+}
+.wrap-right img{
+    display: block;
+    margin: 0 auto
+}
+.wrap-right .right-cotent{
+    width: 390px;
+    margin: 210px 0 0 35px;
+}
+.wrap-right .motion-subtitle{
+    margin: 17px auto 23px;
+}
+.wrap-right .motion-intro-top{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    width: 400px;
+    margin-bottom: 30px;
+}
+.motion-intro-bottom{
+    width: 391px;
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 35px;
+}
+@media screen and (max-width: 800px){
+    /*设计故事*/
+    body{
+        min-width: 0;
+    }
+    .ticwatch2-content{
+        margin-top: 60px;
+    }
+    .ticwatch2-content .design{
+        padding-bottom: 30px;
+    }
+    .design .design-wrap{
+        width: 94%;
+        /*height: 650px;*/
+        height: auto;
+    }
+    .design-wrap .design-top{
+        height: auto;
+    }
+    .design-wrap img{
+        width: 100%;
+        height: auto; 
+    }
+    .design-wrap h2{
+        font-size: 18px;
+    }
+    .design-wrap p{
+        font-size: 16px;
+    }
+    .intro-list{
+        position: absolute;
+        bottom: -85px;
+        left: 50%;
+        width: 282px;
+        margin-left: -141px;
+    }
+    .intro-list li{
+        line-height:25px;
+    }
+    .intro-list .line{
+        margin: 12px 10px 0 10px;
+        height:25px;
+    }
+    .intro-list .number {
+        font-size: 16px;
+    }
+    .intro-list .intro-text,
+    .intro-list .unit {
+        font-size: 12px;
+    }
+    .material{
+        height:800px;
+    }
+    .material .inner{
+        width:100%;
+    }
+    .material-text{
+        width:100%;
+        bottom:105px;
+    }
+    .material-text h3{
+        font-size:16px;
+    }
+    .material-text p{
+        font-size:12px;
+        line-height:20px;
+    }
+    /*精瓷系列*/
+    .style-china .china-display{
+        height: auto;
+        background: black;
+        margin-bottom: -1px;
+    }
+    .china-display .china-content{
+        width: 94%;
+        margin: 0 auto;
+        padding: 30px 0;
+        height: auto;
+    }
+    .china-content .china-list-img{
+        width: 100%;
+    }
+    .china-content .sub-title{
+        width: auto;
+    }
+    .china-content span{
+        margin:40px 0 0 15px;
+    }
+    .style-china .china-intro{
+        background-size: contain;
+        height: auto;
+        background: black;
+        border: none;
+    }
+    .china-intro .china-intro-text{
+        width: 94%;
+        padding: 0 0 30px;
+        height: auto;
+
+    }
+    .china-intro-text .cileft,
+    .china-intro-text .ciright{
+        height: auto;
+        width: 100%;
+    }
+    .china-intro-text .cileft{
+        position: static;
+    }
+    .china-intro-text .ciright{
+        position: static;
+    }
+    /*问问手表经典系列*/
+    .style-classic{
+        margin-top: 40px;
+    }
+    .style-classic .classic-bg{
+        width: 100%;
+    }
+    .style-classic .classic-lower{
+        width: 94%;
+        display: block;
+        margin: 0 auto;
+    }
+    .classic-lower .classic-intro-top,
+    .classic-lower .classic-list-img{
+        width: 100%;
+    }
+    .classic-lower .classic-intro-bottom{
+        width: 100%;
+    }
+    /*悦动系列*/
+    .style-motion{
+        background: none;
+    }
+    .style-motion .motion-wrap{
+        width: 100%;
+    }
+    .motion-wrap .wrap-left,
+    .motion-wrap .wrap-right{
+        float: none;
+    }
+    .motion-wrap .wrap-right{
+        width: 94%;
+        margin: 0 auto;
+    }
+    .wrap-left img{
+        width: 100%;
+    }
+    .wrap-right .right-cotent .motion-main-title{
+        margin-top: 17px;
+    }
+    .wrap-right .right-cotent{
+        margin: 0;
+        width: 100%;
+    }
+    .style-motion .motion-wrap{
+        height: auto;
+    }
+    .motion-wrap .wrap-left, 
+    .motion-wrap .wrap-right{
+        height: auto;
+    }
+    .motion-wrap .wrap-right{
+        margin-bottom: 20px;
+    }
+    .wrap-right .motion-intro-top{
+        width: 94%;
+        margin: 0 auto 30px;
+    }
+    .motion-intro-bottom{
+        width: 100%;
+    }
+}

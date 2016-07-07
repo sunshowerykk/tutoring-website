@@ -1,0 +1,151 @@
+/*aboutus*/
+.aboutus{
+	width: 100%;
+	background: #f9f9f9;
+	padding-top: 60px;
+	min-width: 1000px;
+}
+.a_inner{
+	width: 1000px;
+	margin: 0 auto;
+}
+.cmww_logo{
+	width: 620px;
+	margin:0 auto;
+	text-align: center;
+	padding: 30px 0;
+	border-bottom:1px solid #939797;
+}
+.aboutus p{
+	font-size:16px;
+	line-height: 25px;
+}
+#contact_us{
+	font-size: 14px;
+	padding-top: 50px;
+}
+.baiduMap{
+	width:604px; 
+	margin:0 auto;
+	padding-top: 30px;
+}
+.list_title{
+	padding-top:20px;
+	text-align: center;
+}
+.list_title ul{
+	height: 107px;
+	overflow: hidden;
+}
+.list_title li{
+	display: inline-block;
+	float:left\9;
+	margin:0px 50px;
+}
+.list_title li.icon{
+	cursor: pointer;
+}
+.list_title li.li1{
+	background: url(../../static/img/aboutus/list_title.png) no-repeat 0 0;
+	width: 176px;
+	height: 107px;
+}
+.list_title li.li2{
+	background: url(../../static/img/aboutus/list_title.png) no-repeat -227px 0;
+	width: 156px;
+	height: 107px;
+}
+.list_title li.li3{
+	background: url(../../static/img/aboutus/list_title.png) no-repeat -447px 0;
+	width: 69px;
+	height: 107px;
+}
+.list_title li.li4{
+	background: url(../../static/img/aboutus/list_title.png) no-repeat -570px 0;
+	width: 125px;
+	height: 107px;
+}
+.list_title .li1.selected{
+	background: url(../../static/img/aboutus/list_title.png) no-repeat 0 -107px;
+	width: 176px;
+	height: 107px;
+}
+.list_title .li2.selected{
+	background: url(../../static/img/aboutus/list_title.png) no-repeat -227px -107px;
+	width: 156px;
+	height: 107px;
+}
+.list_title .li3.selected{
+	background: url(../../static/img/aboutus/list_title.png) no-repeat -447px -107px;
+	width: 69px;
+	height: 107px;
+}
+.list_content {
+	background: #fff;
+	text-align: center;
+	height: 505px;
+	height: auto\9;
+	overflow: hidden;
+}
+.list_content li{
+	display: inline-block;
+	padding: 55px 40px 35px 40px;
+}
+.list_content li img{
+	vertical-align: bottom;
+}
+.list_content p{
+	font-size: 18px;
+	line-height: 30px;
+}
+.list_content p span{
+	font-size: 16px;
+}
+.list_content .hide{
+	display: none;
+}
+.about_content{
+	padding: 60px 0px;
+}
+.about_content p{
+	padding: 10px 0px;
+}
+.about_content .intro{
+	padding-bottom:30px;
+}
+/*english*/
+.us{
+	margin:0 auto;
+	width:1080px;
+}
+.us img{
+	width:100%;
+}
+@media screen and (max-width: 800px){
+	.a_inner{
+		width:100%;
+	}
+	.baiduMap{
+		display: none;
+	}
+	.list_content{
+		height: auto;
+		overflow:visible;
+	}
+	.cmww_logo{
+		width: 100%;
+	}
+	.about_content{
+		padding: 60px 20px;
+	}
+	.cmww_logo,.list_title,.list_content{
+		display: none;
+	}
+	.aboutus{
+		min-width: 100%;
+		padding-top:0;
+	}
+	.us{
+		width:100%;
+	}
+}

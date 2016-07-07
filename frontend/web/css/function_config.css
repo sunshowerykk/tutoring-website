@@ -1,0 +1,572 @@
+body,html{
+    width:100%;
+    height:100%;
+    min-width:1200px;
+}
+font:hover{
+    color:#ccc;
+}
+h3{
+    font-size:22px;
+    text-align:center;
+    font-weight:normal;
+}
+p{
+    font-size:16px;
+    padding-top:45px;
+    line-height:30px;
+    text-align:center;
+}
+.color-black{
+    color:#010101;
+}
+.color-white{
+    color:#fff;
+}
+.section-config-hardware{
+    width:100%;
+    height:100%;
+    background:url(/static/img/ticwatch2/config-hardware-bg.jpg) center no-repeat;
+    background-size:cover;
+    position:relative;
+    margin-top:105px;
+}
+.config-hardware-inner{
+    width:1024px;
+    height:100%;
+    margin:0 auto;
+}
+.config-hardware-inner p{
+    font-size:16px;
+    color:#fff;
+    width:400px;
+    margin-left:80px;
+    position:absolute;
+    top:50%;
+    text-align:center;
+}
+.config-hardware-inner span{
+    font-size:12px;
+    position:absolute;
+    bottom:13%;
+    margin-left:175px;
+}
+font{
+    color:#ffa039;
+}
+.section-communication{
+    width:100%;
+    background:url(/static/img/ticwatch2/section-communication-bg.jpg) center no-repeat;
+    background-size:cover;
+    position:relative;
+}
+.communication-inner{
+    width:1024px;
+    height:180px;
+    position:absolute;
+    top:50%;
+    margin-top:-90px;
+    left:50%;
+    margin-left:-512px;
+}
+.communication-inner p{
+    width:440px;
+    margin:0 auto;
+}
+.section-communication span{
+    font-size:12px;
+}
+.txt{
+    font-size:12px;
+    text-align:center;
+    padding-top:30px;
+}
+.supplement{
+    position:absolute;
+    left:15%;
+    bottom:6%;
+}
+.supplement strong{
+    color:#d5822c;
+}
+.section-gps{
+    width:100%;
+    height:490px;
+    background-color:#fff;
+    position:relative;
+}
+.section-gps h3{
+    position:absolute;
+    top:70px;
+    left:50%;
+    margin-left:-167px;
+}
+.gps-img{
+    width:1024px;
+    height:383px;
+    background:url(/static/img/ticwatch2/gps.jpg) center no-repeat;
+    margin:0 auto;
+}
+.section-gps p{
+    position:absolute;
+    width:820px;
+    left:50%;
+    margin-left:-410px;
+    bottom:150px;
+}
+.section-gps span{
+    position:absolute;
+    width:615px;
+    left:50%;
+    margin-left:-308px;
+    bottom:70px;
+    font-size:12px;
+    line-height:20px;
+}
+.section-sport{
+    width:100%;
+    height:410px;
+    background:url(/static/img/ticwatch2/section-sport-bg.jpg) center no-repeat;
+    background-size:cover;
+}
+.section-sport ul{
+    width:830px;
+    height:125px;
+    margin:0 auto;
+}
+.section-sport ul li{
+    float:left;
+    width:210px;
+    margin-right:100px;
+}
+.section-sport ul li:last-child{
+    margin-right:0;
+}
+.section-sport .top{
+    width:125px;
+    height:125px;
+    border:2px solid #fff;
+    border-radius:50%;
+    margin:80px auto 0;
+}
+.section-sport .workout{
+    background:url(/static/img/ticwatch2/workout.png) center no-repeat;
+}
+.section-sport .heart{
+    background:url(/static/img/ticwatch2/heart.png) center no-repeat;
+}
+.section-sport .heart-rate{
+    background:url(/static/img/ticwatch2/heart-rate.png) center no-repeat;
+}
+.section-sport .down{
+    font-size:12px;
+    color:#fff;
+    line-height:20px;
+    text-align:center;
+    margin-top:110px;
+}
+.section-func{
+    width:100%;
+    height:auto;
+    background-color:#000;
+    overflow:hidden;
+}
+.func-scratch{
+    width:1024px;
+    height:550px;
+    margin:0 auto;
+    position:relative;
+}
+.func-scratch .scratch-img{
+    position:absolute;
+    left:0;
+    top:0;
+}
+.func-scratch .text-inner{
+    position:absolute;
+    top:50%;
+    margin-top:-100px;
+    right:100px;
+}
+.func-scratch p{
+    width:360px;
+}
+.section-func-contact{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    background:url(/static/img/ticwatch2/contact-bg.jpg) center repeat-x;
+}
+.func-contact{
+    width:1024px;
+    height:537px;
+    margin:0 auto;
+    position:relative;
+}
+.func-contact .sensor-img{
+    position:absolute;
+    right:-80px;
+    top:50px;
+}
+.func-contact .text-inner{
+    position:absolute;
+    top:50%;
+    margin-top:-85px;
+    left:70px;
+}
+.func-contact h3{
+    text-align:right;
+}
+.func-contact p{
+    width:400px;
+    text-align:right;
+}
+
+.section-hardware{
+    width:100%;
+    height:1090px;
+    background-color:#fff;
+}
+.section-hardware ul{
+    width:1024px;
+    height:auto;
+    margin:0 auto;
+    padding:70px 0;
+}
+.section-hardware ul li{
+    float:left;
+    width:500px;
+    height:542px;
+    text-align:center;
+}
+.section-hardware ul li h3{
+    margin-top:145px;
+}
+.motor-text p{
+    width:400px;
+    margin:0 auto;
+}
+.microphone-text p{
+    width:350px;
+    margin:0 auto;
+}
+.section-charge{
+    width:100%;
+    height:800px;
+    background:url(/static/img/ticwatch2/charge-bg.jpg) repeat-x;
+    background-size:100%;
+}
+.section-charge .inner{
+    width:1024px;
+    height:100%;
+    margin:0 auto;
+    position:relative;
+}
+.charge-img{
+    position:absolute;
+    left:-130px;
+    top:95px;
+}
+.section-charge .charge-text{
+    position:absolute;
+    right:70px;
+    top:150px;
+    width:40%;
+}
+.section-charge .text p{
+    width:375px;
+    margin:0 auto;
+}
+.charge-parameter-img{
+    position:absolute;
+    bottom:-5px;
+    left:-100px;
+    width:500px;
+}
+.parameter-text{
+    position:absolute;
+    right:150px;
+    top:420px;
+}
+.parameter-text ul li{
+    float:left;
+    text-align:center;
+    margin-right:20px;
+}
+.parameter-text ul li:last-child{
+    margin-right:0;
+}
+.parameter-text ul li span{
+    font-size:48px;
+    color:#3e3a3a;
+}
+.parameter-text ul li span small{
+    font-size:22px;
+}
+.parameter-text ul li p{
+    font-size:16px;
+    padding-top:5px;
+    color:#000;
+}
+.charge-desc{
+    display:block;
+    margin:20px auto 40px;
+    text-align:center;
+    color:#000;
+    font-size:16px;
+}
+.section-charge sup{
+    font-size:12px;
+}
+.charge-sign{
+    display:block;
+    margin:0 auto;
+}
+.line{
+    width:1px;
+    height:55px;
+    background-color:#000;
+    margin-top:13px;
+}
+.charge-sup{
+    font-size:12px;
+    text-align:right;
+    padding-top:100px;
+}
+@media screen and (max-width:800px){
+    body,html{
+        min-width:0;
+    }
+    h3{
+        font-size:16px;
+    }
+    p{
+        font-size:12px;
+        padding-top:25px;
+        line-height:25px;
+    }
+    .section-config-hardware{
+        height:500px;
+        margin-top:60px;
+    }
+    .section-config-hardware p{
+        width:80%;
+        font-size:12px;
+        margin:0 auto;
+        padding-top:300px;
+        position:inherit;
+        top:0;
+    }
+    .config-hardware-inner{
+        width:100%;
+    }
+    .config-hardware-inner span{
+        position:inherit;
+        bottom:0;
+        display:block;
+        text-align:center;
+        margin:20px auto 0;
+    }
+    .section-communication{
+        background:#eff1f1;
+    }
+    .section-communication img{
+        width:100%;
+    }
+    .communication-inner{
+        width:80%;
+        height:auto;
+        position:inherit;
+        top:0;
+        left:0;
+        margin:10px auto 0;
+    }
+    .communication-inner p{
+        width:100%;
+    }
+    .txt{
+        padding-top:15px;
+    }
+    .supplement{
+        position:inherit;
+        left:0;
+        bottom:0;
+        line-height:20px;
+        display:block;
+        width:80%;
+        margin:20px auto 0;
+        padding-bottom:20px;
+    }
+    .section-gps{
+        height:auto;
+    }
+    .section-gps h3{
+        position:inherit;
+        top:0;
+        left:0;
+        margin-left:0;
+        margin-top:40px;
+    }
+    .gps-img{
+        width:90%;
+        height:320px;
+    }
+    .section-gps p{
+        width:90%;
+        position:inherit;
+        left:0;
+        bottom:0;
+        margin:-90px auto 20px;
+        line-height:20px;
+    }
+    .section-gps span{
+        position:static;
+        width:90%;
+        left:0;
+        bottom:0;
+        display:block;
+        margin:0 auto 20px;
+    }
+    .section-sport{
+        height:auto;
+        background-position:60% 50%;
+        padding:50px 0;
+    }
+    .section-sport ul{
+        width:100%;
+        padding:0;
+    }
+    .section-sport ul li{
+        width:33%;
+        height:100%;
+        margin:0 auto;
+    }
+    .section-sport .top{
+        width:70%;
+        height:70%;
+        margin:50px auto 0;
+    }
+    .section-sport .workout,
+    .section-sport .heart,
+    .section-sport .heart-rate{
+        background-size:80%;
+    }
+    .section-sport .down{
+        width:80%;
+        margin:30px auto 0;
+    }
+    .section-sport ul li:last-child {
+        margin-right:auto;
+    }
+    .func-scratch,.func-contact{
+        width:100%;
+        height:auto;
+    }
+    .func-scratch .scratch-img,
+    .func-contact .sensor-img{
+        position:inherit;
+        width:100%;
+        right:0;
+        top:0;
+    }
+    .func-scratch .text-inner,
+    .func-contact .text-inner{
+        position:inherit;
+        margin:20px auto;
+        width:80%;
+        top:0;
+        right:0;
+        left:0;
+    }
+    .func-scratch p,
+    .func-contact p{
+        width:100%;
+        text-align:center;
+    }
+    .func-contact h3{
+        text-align:center;
+    }
+    .section-hardware{
+        height:auto;
+        overflow:hidden;
+    }
+    .section-hardware ul{
+        width:100%;
+        padding:0;
+    }
+    .section-hardware ul li{
+        float:none;
+        height:auto;
+        width:90%;
+        margin:0 auto;
+    }
+    .section-hardware ul li h3{
+        margin:20px auto 0;
+        width:90%;
+    }
+    .section-hardware img,
+    .section-hardware ul li p{
+        width:90%;
+    }
+    .motor-text{
+        padding-top:30px;
+    }
+    .section-charge,
+    .section-charge .inner{
+        width:100%;
+    }
+    .section-charge{
+        height:auto;
+        padding:20px 0 0;
+    }
+    .section-charge img,
+    .section-charge .charge-text,
+    .section-charge .parameter-text{
+        position:inherit;
+        left:0;
+        top:0;
+        bottom:0;
+        right:0;
+        padding:20px 0;
+    }
+    .section-charge img,
+    .section-charge .charge-text{
+        display:block;
+        width:80%;
+        margin:0 auto;
+    }
+    .parameter-text img{
+        width:40%;
+    }
+    .charge-desc{
+        font-size:14px;
+    }
+    .section-charge .parameter-text{
+        width:100%;
+    }
+    .parameter-text ul{
+        width:190px;
+        height:58px;
+        margin:0 auto;
+    }
+    .parameter-text ul li{
+        margin-right:10px;
+    }
+    .parameter-text ul li span{
+        font-size:24px;
+    }
+    .parameter-text ul li span small,
+    .parameter-text ul li p{
+        font-size:12px;
+    }
+    .line{
+        height:25px;
+        margin-top:5px;
+    }
+    .charge-sup{
+        padding-top:10px;
+        width:320px;
+        margin:0 auto;
+        text-align:center;
+    }
+}

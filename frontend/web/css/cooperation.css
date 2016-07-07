@@ -1,0 +1,337 @@
+.web{
+    display:block;
+}
+.mobile{
+    display:none;
+}
+body{
+    min-width:1200px;
+}
+h3{
+    font-size:22px;
+    font-weight:normal;
+    text-align:center;
+}
+p{
+    font-size:16px;
+    padding-top:13px;
+    line-height:30px;
+    text-align:center;
+}
+#content>div{
+    min-height:1000px;
+}
+.color-white{
+    color:#fff;
+}
+.color-black{
+    color:#000;
+}
+.btn{
+    display:block;
+    width:150px;
+    height:35px;
+    border-radius:20px;
+    line-height:35px;
+    text-align:center;
+    margin:35px auto 0;
+    font-size:14px;
+}
+.btn i{
+    border-top:10px solid transparent;
+    border-bottom:10px solid transparent;
+    width:0px;
+    height:0px;
+    float:left;
+    margin:7px 0 0 15px;
+}
+.inner{
+    width:1180px;
+    margin:0 auto;
+    min-height: 1000px;
+    position:relative;
+}
+.section-fashion{
+    width:100%;
+    background:url(/static/img/ticwatch2/section-fashion-bg.jpg) center no-repeat;
+    background-size:cover;
+}
+.section-fashion .text{
+    position:absolute;
+    top:48%;
+    right:78px;
+    width:640px;
+}
+.section-fashion .text h3,
+.section-fashion .text p{
+    text-align:left;
+}
+.section-fashion .btn{
+    border:2px solid #fff;
+}
+.section-fashion .btn:hover{
+    background-color:#00a0e9;
+    color:#fff;
+    border:2px solid #00a0e9;
+}
+.section-fashion .btn i{
+    border-left:18px solid #fff;
+}
+.section-art{
+    width:100%;
+    background-color:#f8f8f8;
+    position:relative;
+}
+.section-art .bg-img{
+    width:100%;
+    height:auto;
+    display: block;
+}
+.section-art .inner{
+    z-index: 3;
+    position:absolute;
+    top:0;
+    left: 50%;
+    margin-left: -590px;
+}
+.art-logo{
+    display:block;
+    margin:30px auto 25px;
+}
+.section-art .btn{
+    border:2px solid #000;
+}
+.section-art .btn:hover{
+    background-color:#00a0e9;
+    color:#fff;
+    border:2px solid #00a0e9;
+}
+.section-art .btn i{
+    border-left:18px solid #000;
+}
+.section-art .btn:hover i{
+    border-left:18px solid #fff;
+}
+.artor-list{
+    max-width: 1180px;
+    margin:30px auto 0;
+    padding-bottom:30px;
+    height: auto;
+    overflow: hidden;
+}
+.artor-list li{
+    float:left;
+    width:33%;
+}
+.artor-img{
+    float:left;
+}
+.artor-intro{
+    margin:0 35px 0 100px;
+}
+.name,.intro{
+    font-size:12px;
+    display:block;
+}
+.name{
+    margin:5px 0 10px;
+}
+.intro{
+    line-height:20px;
+}
+.section-dial-design{
+    width:100%;
+    background:url(/static/img/ticwatch2/section-dial-design.jpg) center no-repeat;
+    background-size:cover;
+}
+.section-dial-design .text{
+    width:100%;
+    position:absolute;
+    bottom:15px;
+    left:50%;
+    margin-left:-590px;
+}
+.section-dial-design .btn{
+    border:2px solid #000;
+    margin-top:15px;
+}
+.section-dial-design .btn:hover{
+    background-color:#000;
+    color:#fff;
+}
+.design-intro{
+    position:absolute;
+    right:40px;
+    bottom:32%;
+    width:240px;
+}
+.design-intro img{
+    display:block;
+    width:86px;
+    height:85px;
+    margin:0 auto 10px;
+}
+.design-intro span,
+.design-intro p{
+    font-size:12px;
+    text-align:left;
+}
+.design-intro span{
+    display:block;
+    margin-bottom:30px;
+}
+.design-intro p{
+    padding-top:0;
+    line-height:25px;
+}
+/* video control */
+.video-layout {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 99;
+    display: none;
+}
+.video-box {
+    position: fixed;
+    text-align: center;
+    width: 70%;
+    top: 15%;
+    left: 50%;
+    z-index: 999;
+    margin-left: -35%;
+    display: none;
+}
+.video-box span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    z-index: 999;
+}
+.video-box video {
+    width: 100%;
+    vertical-align:bottom;
+}
+.close-video-btn {
+    margin: 30px;
+    cursor: pointer;
+    width: 50px;
+}
+.close-video-btn img{
+    width: 60%;
+}
+@media screen and (max-width:800px){
+    body{
+        min-width:0;
+    }
+    .web{
+        display:none;
+    }
+    .mobile{
+        display:block;
+    }
+    #content{
+        margin-top:105px;
+    }
+    .inner{
+        width:90%;
+        min-height: 0;
+    }
+    .color-white{
+        color:#000;
+    }
+    h3{
+        font-size:14px;
+        padding-top:20px;
+    }
+    p{
+        font-size:12px;
+        line-height:25px;
+        padding-top:15px;
+    }
+    .btn{
+        font-size:12px;
+        width:140px;
+        height:30px;
+        line-height:30px;
+        margin-top:25px;
+    }
+    .btn i{
+        margin-top:4px;
+    }
+    #content>div{
+        min-height:0;
+    }
+    .section-fashion,
+    .section-art,.section-dial-design{
+        background:#fff;
+    }
+    .section-fashion img,
+    .section-dial-design .bg-img{
+        width:100%;
+    }
+    .section-fashion .btn{
+        border:2px solid #000;
+    }
+    .section-fashion .btn:hover{
+        background:#000;
+        color:#fff;
+    }
+    .section-fashion .btn i{
+        border-left:18px solid #000;
+    }
+    .section-art{
+        height:auto;
+        overflow:hidden;
+    }
+    .section-art .inner{
+        position:inherit;
+        left:0;
+        margin:0 auto;
+    }
+    .art-logo{
+        width:80%;
+    }
+    .artor-list{
+        position:inherit;
+        bottom:0;
+    }
+    .artor-list li{
+        float:none;
+        width:100%;
+        margin-top:20px;
+    }
+    .artor-img{
+        float:none;
+        width:84px;
+        margin:0 auto;
+    }
+    .artor-intro{
+        width:60%;
+        margin:0 auto;
+    }
+    .name,.intro{
+        text-align:center;
+    }
+    .section-dial-design .text{
+        width:90%;
+        position:inherit;
+        bottom:0;
+        left:0;
+        margin:0 auto;
+    }
+    .design-intro{
+        position:inherit;
+        right:0;
+        bottom:0;
+        width:90%;
+        margin:20px auto 0;
+    }
+    .design-intro span,.design-intro p{
+        text-align:center;
+    }
+}
