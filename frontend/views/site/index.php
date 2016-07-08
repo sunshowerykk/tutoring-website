@@ -3,11 +3,10 @@
 use yii\helpers\Url;
 use frontend\assets\AppAsset;
 
-AppAsset::addCss($this,'@web/css/common.css');
 AppAsset::addCss($this,'@web/css/ticwear_new.css');
 AppAsset::addCss($this,'@web/css/unslider.css');
-$this->title = Yii::t('app', 'Ticwatch2 - 问问手表_中文语音交互智能手表');
 
+$this->title = Yii::t('app', 'Ticwatch2 - 问问手表_中文语音交互智能手表');
 ?>
 <div class="slider-bar">
     <ul>
@@ -44,9 +43,6 @@ $this->title = Yii::t('app', 'Ticwatch2 - 问问手表_中文语音交互智能�
         </a>
     </div>
 </div>
-<script type="text/javascript" src="<?= Url::to('@web/lib/jquery-1.8.3.min.js', true)?>"></script>
 <script type="text/javascript" src="<?= Url::to('@web/lib/unslider-min.js', true)?>"></script>
 <script type="text/javascript" src="<?= Url::to('@web/js/common.js', true)?>"></script>
 <script type="text/javascript" src="<?= Url::to('@web/js/ticwear_new.js', true)?>"></script>
-</body>
-</html>

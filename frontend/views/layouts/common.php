@@ -7,9 +7,9 @@ AppAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?= Yii::$app->language ?>">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords" content="Ticwatch 2,智能手表,出门问问，问问手表，安卓,iOS" />
     <meta name="description" content="Ticwatch2问问手表是新一代人工智能语音交互智能手表。Ticwatch2由北欧设计师打造外观，至简设计。Ticwatch跨界李晨主理品牌NPC MLGB推出定制潮牌Ticwatch2。Ticwatch2可以实现接打电话、接收推送、运动信息检测等功能，可以Android及iOS手机系统兼容。" />
@@ -17,45 +17,9 @@ AppAsset::register($this);
     <title><?= Html::encode($this->title) ?></title>
     <link rel="icon" type="image/ico" href="favicon.ico"/>
     <?php $this->head() ?>
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-          ga('create', 'UA-64695573-2', 'auto');
-          ga('send', 'pageview');
-                  
-        function goTo(url){
-            var ua = navigator.userAgent;
-            if(ua.indexOf('MSIE')>=0){
-                var rl = document.createElement('a');
-                rl.href= url;
-                document.body.appendChild(rl);
-                rl.click();
-            }else{
-                location.href = url;
-            }
-        }
-        function getReferer(){
-            if(document.referrer){
-                return document.referrer;
-            }else{
-                return false;
-            }
-        }        
-        if (getReferer()) {
-            var referrer = getReferer();
-            var isIndexOf = referrer.indexOf('bzclk.baidu.com') > -1 || referrer.indexOf('www.baidu.com/baidu.php') > -1 || referrer.indexOf('?word=') > -1;
-            if(isIndexOf){
-                ga('send', 'event','baidu_to_jd','click');
-                goTo('https://ticwatch.tmall.com/p/rd004132.htm');
-            }
-        }
-    </script>
 </head>
 <body>
-<?php $this->beginBody() ?>
+    <?php $this->beginBody() ?>
     <div class="common-head">
         <div id="header">
             <div class="h-inner">
@@ -78,7 +42,7 @@ AppAsset::register($this);
                 </div>
                 <div id="nav2">
                     <ul>
-                       <li class="bdsharebuttonbox shareicon">
+                     <li class="bdsharebuttonbox shareicon">
                         <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
                         <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
                     </li>
@@ -94,6 +58,9 @@ AppAsset::register($this);
                       ga('send', 'pageview');
                   </script>
                   <style type="text/css">
+                  .bdsharebuttonbox{
+                    overflow: hidden;
+                  }
                     .bdshare-button-style1-32 a{
                         margin:0px 5px;
                         float:left;
@@ -127,7 +94,7 @@ AppAsset::register($this);
             <div class="language en" id="switch"></div>
             <div class="split-line"></div>
             <div class="cmww"><a href="http://www.chumenwenwen.com" target="_blank">
-            <img src="<?= Url::to('@web/img/cmww.png', true); ?>"/>
+                <img src="<?= Url::to('@web/img/cmww.png', true); ?>"/>
             </a></div>
         </div>
         <div id="nav1">
@@ -202,61 +169,6 @@ AppAsset::register($this);
             </div>
         </div>
     </div>
-</div>
-<script>
-  (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
-     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
- })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
- ga("create", "UA-64689193-1", "auto");
- ga("send", "pageview");
-</script>
-<div style="display:none">
-    <script type="text/javascript" src="http://s19.cnzz.com/z_stat.php?id=1252939802&show=pic1"></script>
-    <script>
-  //buy link count
-  function shopClick(pro) {
-      if(navigator.userAgent.indexOf("UCBrowser") > -1) {
-          if(pro == 'ticwatch'){
-              window.location.href="http://store.ticwear.com/";
-          }else{
-              window.location.href="https://izhongchou.taobao.com/dreamdetail.htm?spm=0.0.0.0.zJtEt2&id=10047375&";
-          }
-      }else{
-          if(pro == 'ticwatch'){
-              _czc&&_czc.push(["_trackEvent", "ticwatch", "shop-click", ""]);
-              window.location.href="http://store.ticwear.com/";
-          }else{
-              _czc&&_czc.push(["_trackEvent", "ticwatch-gold", "shop-click", ""]);
-              window.open("https://detail.tmall.com/item.htm?spm=0.0.0.0.cPgWUD&id=524700673643&sku_properties=149238345:962164731");
-          }
-      }
-  }
-  
-</script>
-<script language="javascript" type="text/javascript" src="http://js.users.51.la/17737104.js"></script>
-<noscript>
-    <a href="http://www.51.la/?17737104" target="_blank">
-      <img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/17737104.asp" style="border:none" />
-  </a>
-</noscript>
-<script language="javascript" type="text/javascript" src="http://js.users.51.la/17833566.js"></script>
-<noscript>
-    <a href="http://www.51.la/?17833566" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/17833566.asp" style="border:none" /></a>
-</noscript>
-<script>
-  var _hmt = _hmt || [];
-  (function() {
-    var hm = document.createElement("script");
-    hm.src = "//hm.baidu.com/hm.js?9903b088357366e6615a9af14b5396fc";
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(hm, s);
-})();
-</script>
-<script>
-  var new_date = new Date();
-  document.getElementById('this_year').innerHTML = new_date.getFullYear();
-</script>
 </div>
 <?php $this->endBody() ?>
 </body>

@@ -109,28 +109,7 @@ $(function(){
   }
   //validataOS();
 });
-function loadData(id){
-  $.ajax({
-      type:"get",
-      url:"/en/static/data/link.json",
-      dataType:"json",
-      cache:false,
-      success:function(data){
-        if($(".language").hasClass("en")){
-            $(".language").on("click",function(){
-                window.location.href = data.en[id];
-            });
-        }else{
-            $(".language").on("click",function(){
-                window.location.href = data.cn[id];
-            });
-        }
-      },
-      error:function(){
-        console.log("error");
-      }
-  });
-}
+
 function ticwearMenu(){
   $("._ticwear").add($("._hover-content")).on({
       mouseenter : function(){
@@ -142,33 +121,13 @@ function ticwearMenu(){
   });
 }
 function pageUrl(){
-  var pageUrl= window.location.href;
-  var arr=pageUrl.split("/");
-  var id=arr[arr.length-1].split(".")[0];
-  if(pageUrl.indexOf("en")>0){
-    $('.common-head').load('/en/header.html',function(){
         highUrl();
         shareIcon();
         ShowSmenu();
         Showlilist();
         searchInp();
         $('.ticwatch_pro').show();
-        loadData(id);
-    });
-    $('.common-foot').load('/en/footer.html');
-  }else{
-    $('.common-head').load('/header.html',function(){
-        highUrl();
-        shareIcon();
-        ShowSmenu();
-        Showlilist();
-        searchInp();
-        $('.ticwatch_pro').show();
-        loadData(id);
         ticwearMenu();
-    });
-    $('.common-foot').load('/footer.html');
-  }
 }
 pageUrl();
 $(function(){
@@ -177,15 +136,3 @@ $(function(){
         menuSwtich();
     });
 });
-
-
-/*
-$('.common-head').load('/header.html',function(){
-  highUrl();
-  shareIcon();
-  ShowSmenu();
-  Showlilist();
-  searchInp();
-  $('.ticwatch_pro').show();
-});
-$('.common-foot').load('/footer.html');*/
