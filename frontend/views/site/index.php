@@ -44,5 +44,4 @@ $this->title = Yii::t('app', 'Ticwatch2 - 问问手表_中文语音交互智能�
     </div>
 </div>
 <script type="text/javascript" src="<?= Url::to('@web/lib/unslider-min.js', true)?>"></script>
-<script type="text/javascript" src="<?= Url::to('@web/js/common.js', true)?>"></script>
 <script type="text/javascript" src="<?= Url::to('@web/js/ticwear_new.js', true)?>"></script>

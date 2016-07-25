@@ -1,0 +1,11 @@
+{
+  "name": "gulp-build",
+  "version": "3.9.1",
+  "description": "Gulp.js",
+  "private": true,
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-changed": "^1.3.0"
+  }
+}

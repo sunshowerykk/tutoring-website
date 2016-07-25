@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ticwatch2 - 问问手表_中文语音交互智能手表 </title>
+    <meta name="keywords" content="Ticwatch 2,智能手表,出门问问，问问手表，安卓,iOS" />
+    <meta name="description" content="Ticwatch2问问手表是新一代人工智能语音交互智能手表。Ticwatch2由北欧设计师打造外观，至简设计。Ticwatch跨界李晨主理品牌NPC MLGB推出定制潮牌Ticwatch2。Ticwatch2可以实现接打电话、接收推送、运动信息检测等功能，可以Android及iOS手机系统兼容。" />
+    <link rel="icon" type="image/ico" href="favicon.ico"/>
+    <link rel="stylesheet" href="static/css/common.css" />
+    <link rel="stylesheet" href="static/css/unslider.css">
+    <link rel="stylesheet" href="static/css/ticwear_new.css">
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-64695573-2', 'auto');
+          ga('send', 'pageview');
+                  
+        function goTo(url){
+            var ua = navigator.userAgent;
+            if(ua.indexOf('MSIE')>=0){
+                var rl = document.createElement('a');
+                rl.href= url;
+                document.body.appendChild(rl);
+                rl.click();
+            }else{
+                location.href = url;
+            }
+        }
+        function getReferer(){
+            if(document.referrer){
+                return document.referrer;
+            }else{
+                return false;
+            }
+        }        
+        if (getReferer()) {
+            var referrer = getReferer();
+            var isIndexOf = referrer.indexOf('bzclk.baidu.com') > -1 || referrer.indexOf('www.baidu.com/baidu.php') > -1 || referrer.indexOf('?word=') > -1;
+            if(isIndexOf){
+                ga('send', 'event','baidu_to_jd','click');
+                goTo('https://ticwatch.tmall.com/p/rd004132.htm');
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="common-head"></div>
+<div class="slider-bar">
+    <ul>
+        <li>
+            <a href="https://ticwatch.tmall.com/p/rd004132.htm" target="_blank">
+                <img src="static/img/new_banner1.jpg" border="0"/>
+            </a>
+        </li>
+        <li>
+            <a href="/ticmirror/">
+                <img src="static/img/new_banner2.jpg" border="0"/>
+            </a>
+        </li>
+    </ul>
+    <div class="pagination-bar">
+        <em class="current"></em>
+        <em></em>
+    </div>
+</div>
+<div class="index-bottom">
+    <div class="ticwatch">
+        <a href="https://ticwatch.tmall.com/p/rd004132.htm" target="_blank"> 
+            <img src="static/img/new_ll.jpg" alt="">
+        </a>
+    </div>
+    <div class="ticmirror">
+        <a href="http://www.sojump.hk/jq/8359788.aspx" target="_blank">
+            <img src="static/img/new_mm.jpg" alt="">
+        </a>
+    </div>
+    <div class="ticwatch2">
+        <a href="http://www.chumenwenwen.com/h5/app_download/index.html" target="_blank">
+            <img src="static/img/new_rr.jpg" alt="">
+        </a>
+    </div>
+</div>
+<div class="common-foot"></div>
+<script type="text/javascript" src="static/lib/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="static/lib/unslider-min.js"></script>
+<script type="text/javascript" src="static/js/common.js"></script>
+<script src="static/js/ticwear_new.js"></script>
+</body>
+</html>

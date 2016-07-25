@@ -26,6 +26,8 @@ AppAsset::register($this);
                 <div id="nav1_s">
                     <ul>
                         <li><a href="/ticwear.html">TICWEAR</a></li>
+                        <li><a href="<?= Url::to(['/ticwear'], true); ?>"></a>
+                        </li>
                         <li style="font-size:12px;text-indent:12px;"><a href="/ticwatch2/">TICWATCH2</a></li>
                         <li style="font-size:12px;text-indent:12px;"><a href="/ticwatch/ticwatch.html">TICWATCH</a></li>
                         <li style="font-size:12px;text-indent:12px;"><a href="/ticwear/ticwear4.html#">TICWEAR智能手表操作系统</a></li>

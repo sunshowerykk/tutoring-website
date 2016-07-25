@@ -11,12 +11,21 @@ return [
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
-    'modules' => [],
+    'modules' => [
+            'user' => [
+                    'class' => 'dektrium\user\Module',
+                    'enableFlashMessages' => false,
+                    // 'enableRegistration' => false,
+                    'enableConfirmation' => false,
+                    'emailChangeStrategy' => 'STRATEGY_INSECURE',
+                    'admins' => ['admin'],
+            ],
+    ],
     'components' => [
-        'user' => [
-            'identityClass' => 'common\models\User',
-            'enableAutoLogin' => true,
-        ],
+        // 'user' => [
+        //     'identityClass' => 'common\models\User',
+        //     'enableAutoLogin' => true,
+        // ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
